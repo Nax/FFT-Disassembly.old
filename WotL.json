@@ -1,0 +1,4838 @@
+{
+  "arrays": [],
+  "data": [
+    {
+      "address": 145075628,
+      "flags": 1610634240,
+      "name": "gNewItemTable",
+      "sz": 1032,
+      "type": "ItemData"
+    },
+    {
+      "address": 145874160,
+      "flags": 1342198784,
+      "name": "dStr_UsrDirPath",
+      "sz": 24
+    },
+    {
+      "address": 145874184,
+      "flags": 542135296,
+      "name": "dPtrStr_UsrDirPath",
+      "sz": 4
+    },
+    {
+      "address": 145874188,
+      "flags": 1342198784,
+      "name": "dStr_FFTPack",
+      "sz": 12
+    },
+    {
+      "address": 145874200,
+      "flags": 542135296,
+      "name": "dPtrStr_FFTPack",
+      "sz": 4
+    },
+    {
+      "address": 145920648,
+      "flags": 1610634240,
+      "name": "gOldItemTable",
+      "sz": 3072,
+      "type": "ItemData"
+    },
+    {
+      "address": 146138200,
+      "flags": 542135296,
+      "name": "sCutsceneFileNames",
+      "sz": 4
+    },
+    {
+      "address": 154033168,
+      "flags": 536892416,
+      "name": "current_attack_pointer",
+      "sz": 4
+    },
+    {
+      "address": 154033224,
+      "flags": 536892416,
+      "name": "target_pointer",
+      "sz": 4
+    },
+    {
+      "address": 154033244,
+      "flags": 268456960,
+      "name": "base_damage_multiplier",
+      "sz": 2
+    },
+    {
+      "address": 154033248,
+      "flags": 21504,
+      "name": "target_faith",
+      "sz": 1
+    },
+    {
+      "address": 154033288,
+      "flags": 21504,
+      "name": "current_action_X",
+      "sz": 1
+    },
+    {
+      "address": 154033289,
+      "flags": 21504,
+      "name": "current_action_Y",
+      "sz": 1
+    },
+    {
+      "address": 154033332,
+      "flags": 1610634240,
+      "name": "battle_data_struct",
+      "sz": 10248,
+      "type": "BattleData"
+    },
+    {
+      "address": 159018368,
+      "flags": 536892416,
+      "name": "dst",
+      "sz": 4
+    }
+  ],
+  "enums": [],
+  "functions": [
+    {
+      "name": "_EntryPoint",
+      "start": 142622720
+    },
+    {
+      "name": "UnkFunction2",
+      "start": 142658432,
+      "type": "int __cdecl UnkFunction2(UnkStruct *dst, __int8 unk1, int unk2);"
+    },
+    {
+      "name": "rand",
+      "start": 142664504
+    },
+    {
+      "name": "sprintf",
+      "start": 142668976
+    },
+    {
+      "name": "strlen",
+      "start": 142670144,
+      "type": "unsigned __int32 __cdecl strlen(const char *str);"
+    },
+    {
+      "name": "start",
+      "start": 142691072
+    },
+    {
+      "name": "ZodiacMultipliers",
+      "start": 143278848
+    },
+    {
+      "name": "SetStatusChanges",
+      "start": 143279424
+    },
+    {
+      "name": "HandleParrySetEvasionBytes?",
+      "start": 143280704
+    },
+    {
+      "name": "SetEvasionBytes?",
+      "start": 143281216
+    },
+    {
+      "name": "Orientation?",
+      "start": 143281536
+    },
+    {
+      "name": "SetAttackMiss",
+      "start": 143282112
+    },
+    {
+      "name": "GetWeaponDamage",
+      "start": 143283392
+    },
+    {
+      "name": "StealGil",
+      "start": 143284160
+    },
+    {
+      "name": "StealEXP",
+      "start": 143284480
+    },
+    {
+      "name": "SetPAChange",
+      "start": 143284736
+    },
+    {
+      "name": "BardAbilityHardcoding",
+      "start": 143284800
+    },
+    {
+      "name": "DancerAbilityHardcoding",
+      "start": 143285120
+    },
+    {
+      "name": "OratorAbilityHardcoding",
+      "start": 143285440
+    },
+    {
+      "name": "SetBraveChange",
+      "start": 143285696
+    },
+    {
+      "name": "SetSpeedChange",
+      "start": 143285760
+    },
+    {
+      "name": "ShoutFormula",
+      "start": 143285824
+    },
+    {
+      "name": "ChantFormula",
+      "start": 143285952
+    },
+    {
+      "name": "VengeanceFormula",
+      "start": 143286144
+    },
+    {
+      "name": "ManaburnFormula",
+      "start": 143286208
+    },
+    {
+      "name": "ClimhazzardFormula",
+      "start": 143286272
+    },
+    {
+      "name": "SetElementalModifiers",
+      "start": 143286336
+    },
+    {
+      "name": "HandleHealUndead",
+      "start": 143286976
+    },
+    {
+      "name": "StatBreakHardcoding",
+      "start": 143287680
+    },
+    {
+      "name": "EquipBreakHardcoding",
+      "start": 143287936
+    },
+    {
+      "name": "HandlePoachAndTame",
+      "start": 143288832
+    },
+    {
+      "name": "StatusNoMissFormula",
+      "start": 143289344
+    },
+    {
+      "name": "EthersFormula",
+      "start": 143290624
+    },
+    {
+      "name": "HandleCatchReaction",
+      "start": 143290752
+    },
+    {
+      "name": "ApplyPhysicalMultipliers",
+      "start": 143291776
+    },
+    {
+      "name": "GolemFormula?",
+      "start": 143293888
+    },
+    {
+      "name": "GolemFormula2?",
+      "start": 143294592
+    },
+    {
+      "name": "MagicModifiersNoFaith",
+      "start": 143295232
+    },
+    {
+      "name": "LoadMAandPower",
+      "start": 143296384
+    },
+    {
+      "name": "MagicHitFormula",
+      "start": 143296448
+    },
+    {
+      "name": "MagicHItwithStrengthen?",
+      "start": 143297408
+    },
+    {
+      "name": "MagicHitFormulaNoFaith?",
+      "start": 143298432
+    },
+    {
+      "name": "PhysicalHitFormula",
+      "start": 143299264
+    },
+    {
+      "name": "WeaponStrikeFormula",
+      "start": 143300224
+    },
+    {
+      "name": "WeaponProcFormula",
+      "start": 143300416
+    },
+    {
+      "name": "GunFormula",
+      "start": 143300544
+    },
+    {
+      "name": "MagicGunFormula",
+      "start": 143300608
+    },
+    {
+      "name": "DamageWeaponDuplicate",
+      "start": 143301760
+    },
+    {
+      "name": "AbsorbWeaponFormula",
+      "start": 143302592
+    },
+    {
+      "name": "HealWeaponFormula",
+      "start": 143302720
+    },
+    {
+      "name": "MainMagicFormula",
+      "start": 143303040
+    },
+    {
+      "name": "MagicMaxHPPercentFormula",
+      "start": 143304832
+    },
+    {
+      "name": "HitMagicMysticFormula",
+      "start": 143305984
+    },
+    {
+      "name": "HitMagicWhiteMageFormula",
+      "start": 143306496
+    },
+    {
+      "name": "CureFormula",
+      "start": 143306688
+    },
+    {
+      "name": "RaiseFormula",
+      "start": 143307392
+    },
+    {
+      "name": "DeathFormula",
+      "start": 143307776
+    },
+    {
+      "name": "ManaDrainFaithFormula",
+      "start": 143309504
+    },
+    {
+      "name": "LifeDrainFaithFormula",
+      "start": 143310208
+    },
+    {
+      "name": "SetQuickFormula",
+      "start": 143310848
+    },
+    {
+      "name": "SetGolemFormula",
+      "start": 143311040
+    },
+    {
+      "name": "SetCT100Formula",
+      "start": 143311104
+    },
+    {
+      "name": "ManaburnFaithFormula",
+      "start": 143311616
+    },
+    {
+      "name": "OneHPFaithHItFormula",
+      "start": 143312128
+    },
+    {
+      "name": "StatBreakFaithFormula",
+      "start": 143312832
+    },
+    {
+      "name": "DmgMFFaithFormula",
+      "start": 143314304
+    },
+    {
+      "name": "BardSongHItFormula",
+      "start": 143314880
+    },
+    {
+      "name": "DanceHitFormula",
+      "start": 143315200
+    },
+    {
+      "name": "MultiHitNoFaithFormula",
+      "start": 143315456
+    },
+    {
+      "name": "MultiHitFaithFormula",
+      "start": 143315904
+    },
+    {
+      "name": "DmgHPSamuraiFormula",
+      "start": 143317760
+    },
+    {
+      "name": "DmgMPSamuraiFormula",
+      "start": 143318016
+    },
+    {
+      "name": "KiyomoriFormula",
+      "start": 143318656
+    },
+    {
+      "name": "MurasameFormula",
+      "start": 143318848
+    },
+    {
+      "name": "GeomancyFormula",
+      "start": 143319296
+    },
+    {
+      "name": "BreakEquippedFormula",
+      "start": 143319808
+    },
+    {
+      "name": "StealEquippedFormula",
+      "start": 143320064
+    },
+    {
+      "name": "StealGilFormula",
+      "start": 143320384
+    },
+    {
+      "name": "StealExpFormula",
+      "start": 143320512
+    },
+    {
+      "name": "HitOppositeSexFormula",
+      "start": 143321536
+    },
+    {
+      "name": "OratorSkillFormula",
+      "start": 143321984
+    },
+    {
+      "name": "StatBreakFormula",
+      "start": 143322752
+    },
+    {
+      "name": "MPDamagePAHitFormula",
+      "start": 143322880
+    },
+    {
+      "name": "SwordSkillFormula",
+      "start": 143323072
+    },
+    {
+      "name": "EquipBreakFormula",
+      "start": 143323712
+    },
+    {
+      "name": "PAAbsorbMPFormula",
+      "start": 143324416
+    },
+    {
+      "name": "PAAbsorbHPFormula",
+      "start": 143324608
+    },
+    {
+      "name": "WaveFistFormula",
+      "start": 143324736
+    },
+    {
+      "name": "FistsofFuryFormula",
+      "start": 143326400
+    },
+    {
+      "name": "PhysicalHitX",
+      "start": 143327488
+    },
+    {
+      "name": "ChakraFormula",
+      "start": 143328192
+    },
+    {
+      "name": "ReviveFormula",
+      "start": 143328640
+    },
+    {
+      "name": "KnockbackFormula",
+      "start": 143329472
+    },
+    {
+      "name": "HitMagicADReduce",
+      "start": 143330368
+    },
+    {
+      "name": "TargetOneHPFormula",
+      "start": 143330880
+    },
+    {
+      "name": "HitSpeedFormula",
+      "start": 143331008
+    },
+    {
+      "name": "SealEvilFormula",
+      "start": 143331392
+    },
+    {
+      "name": "GalaxyStopFormula",
+      "start": 143331840
+    },
+    {
+      "name": "CrushFormula",
+      "start": 143332032
+    },
+    {
+      "name": "VampireFormula",
+      "start": 143332288
+    },
+    {
+      "name": "PotionsFormula",
+      "start": 143332544
+    },
+    {
+      "name": "ElixirFormula",
+      "start": 143332736
+    },
+    {
+      "name": "PhoenixDownFormula",
+      "start": 143332928
+    },
+    {
+      "name": "HealUndeadReversalFormula",
+      "start": 143333248
+    },
+    {
+      "name": "DrainFormula",
+      "start": 143333696
+    },
+    {
+      "name": "LimitFormula",
+      "start": 143333888
+    },
+    {
+      "name": "GoblinPunchFormula",
+      "start": 143334400
+    },
+    {
+      "name": "HitMagicSomeMods",
+      "start": 143334592
+    },
+    {
+      "name": "HitMagicNoMods",
+      "start": 143334720
+    },
+    {
+      "name": "SelfDestructFormula",
+      "start": 143335296
+    },
+    {
+      "name": "HurricaneFormula",
+      "start": 143335552
+    },
+    {
+      "name": "HealMPFormula",
+      "start": 143336704
+    },
+    {
+      "name": "LowerPAFormula",
+      "start": 143337088
+    },
+    {
+      "name": "LowerMAFormula",
+      "start": 143337600
+    },
+    {
+      "name": "BoostLvlFormula",
+      "start": 143338112
+    },
+    {
+      "name": "MarlboroTurnFormula",
+      "start": 143338560
+    },
+    {
+      "name": "ReduceLevelFormula",
+      "start": 143339264
+    },
+    {
+      "name": "DragonHitFormula",
+      "start": 143339840
+    },
+    {
+      "name": "DragonHealFormula",
+      "start": 143339968
+    },
+    {
+      "name": "DragonShoutFormula",
+      "start": 143340352
+    },
+    {
+      "name": "DragonQuickFormula",
+      "start": 143340544
+    },
+    {
+      "name": "TripleThunderFormula",
+      "start": 143340672
+    },
+    {
+      "name": "NanoflareFormula",
+      "start": 143341120
+    },
+    {
+      "name": "NanoflareStatusFormula",
+      "start": 143341568
+    },
+    {
+      "name": "LowerBraveFaith",
+      "start": 143341632
+    },
+    {
+      "name": "LowerBrave",
+      "start": 143342144
+    },
+    {
+      "name": "SPtimesWPFormula",
+      "start": 143342656
+    },
+    {
+      "name": "JumpFormula",
+      "start": 143343680
+    },
+    {
+      "name": "SanguineSwordFormula",
+      "start": 143369280
+    },
+    {
+      "name": "InfernalStrikeFormula",
+      "start": 143369408
+    },
+    {
+      "name": "CrushingBlowFormula",
+      "start": 143369664
+    },
+    {
+      "name": "AbyssalBladeFormula",
+      "start": 143369728
+    },
+    {
+      "name": "UnholyDarknessFormula",
+      "start": 143370624
+    },
+    {
+      "name": "BarrageFormula",
+      "start": 143370752
+    },
+    {
+      "name": "GetItemDataMasked",
+      "start": 143404480,
+      "type": "ItemData *__cdecl GetItemDataMasked(int item_id);"
+    },
+    {
+      "name": "AssignEnemyItems",
+      "start": 143412352
+    },
+    {
+      "name": "EnemyGen?",
+      "start": 143416960
+    },
+    {
+      "name": "LoadEndgameCutscene",
+      "start": 143503040
+    },
+    {
+      "name": "SomethingToDoWithItems",
+      "start": 144229824,
+      "type": "int __cdecl SomethingToDoWithItems(int unk0, __int16 *item_ids);"
+    },
+    {
+      "name": "Random16u",
+      "start": 144638144
+    },
+    {
+      "name": "LoadDataFile",
+      "start": 144742144
+    },
+    {
+      "name": "WaitForUmd",
+      "start": 144742784
+    },
+    {
+      "name": "OpenFile",
+      "start": 144742912,
+      "type": "__int32 __cdecl OpenFile(void *dst, const char *filename);"
+    },
+    {
+      "name": "SendMsgPipe",
+      "start": 144744960
+    },
+    {
+      "name": "SetEventFlag",
+      "start": 144745728,
+      "type": "int __cdecl SetEventFlag(UnkContext *context);"
+    },
+    {
+      "name": "ClearEventFlag",
+      "start": 144745792,
+      "type": "int __cdecl ClearEventFlag(UnkContext *context);"
+    },
+    {
+      "name": "GetItemData",
+      "start": 144803328,
+      "type": "ItemData *__cdecl GetItemData(__int16 item_id);"
+    },
+    {
+      "name": "isValidItemID",
+      "start": 144804864
+    },
+    {
+      "name": "IsItemInvalid",
+      "start": 144805312,
+      "type": "bool __cdecl IsItemInvalid(__int32 item_id);"
+    },
+    {
+      "name": "RandomFloat?",
+      "start": 144816320
+    },
+    {
+      "name": "OpenFileFMV",
+      "start": 144827968
+    },
+    {
+      "name": "OpenFile2",
+      "start": 144834816
+    },
+    {
+      "name": "OpenFile3",
+      "start": 144835264
+    },
+    {
+      "name": "GetCutscenePath",
+      "start": 144839296
+    },
+    {
+      "name": "load_97E8A64",
+      "start": 144910720
+    },
+    {
+      "name": "sceKernelRegisterSubIntrHandler",
+      "start": 145010452
+    },
+    {
+      "name": "sceKernelReleaseSubIntrHandler",
+      "start": 145010460
+    },
+    {
+      "name": "sceKernelEnableSubIntr",
+      "start": 145010468
+    },
+    {
+      "name": "sceIoWrite",
+      "start": 145010476
+    },
+    {
+      "name": "sceIoChdir",
+      "start": 145010484
+    },
+    {
+      "name": "sceIoRead",
+      "start": 145010492
+    },
+    {
+      "name": "sceIoRename",
+      "start": 145010500
+    },
+    {
+      "name": "sceIoClose",
+      "start": 145010508
+    },
+    {
+      "name": "sceIoReadAsync",
+      "start": 145010516
+    },
+    {
+      "name": "sceIoDopen",
+      "start": 145010524
+    },
+    {
+      "name": "sceIoDclose",
+      "start": 145010532
+    },
+    {
+      "name": "sceIoOpen",
+      "start": 145010540
+    },
+    {
+      "name": "sceIoLseek",
+      "start": 145010548
+    },
+    {
+      "name": "sceIoWaitAsyncCB",
+      "start": 145010556
+    },
+    {
+      "name": "sceKernelSetEventFlag",
+      "start": 145010716
+    },
+    {
+      "name": "sceKernelReceiveMsgPipe",
+      "start": 145010884
+    },
+    {
+      "name": "sceKernelClearEventFlag",
+      "start": 145010916
+    },
+    {
+      "name": "sceKernelTrySendMsgPipe",
+      "start": 145010932
+    },
+    {
+      "name": "sceUmdWaitDriveStatCB",
+      "start": 145011836
+    },
+    {
+      "name": "sceUmdCancelWaitDriveStat",
+      "start": 145011844
+    },
+    {
+      "name": "sceUmdGetDriveStat",
+      "start": 145011852
+    },
+    {
+      "name": "sceUmdWaitDriveStat",
+      "start": 145011860
+    },
+    {
+      "name": "sceUmdActivate",
+      "start": 145011868
+    },
+    {
+      "name": "sceUmdDeactivate",
+      "start": 145011876
+    }
+  ],
+  "settings": {
+    "compiler": 6
+  },
+  "structs": [
+    {
+      "idx": 0,
+      "members": [
+        {
+          "name": "field_0",
+          "offset": 0,
+          "size": 28
+        },
+        {
+          "name": "event_id",
+          "offset": 28,
+          "size": 4
+        }
+      ],
+      "name": "UnkContext",
+      "xrefs": [
+        {
+          "from": 144745736,
+          "type": 3
+        },
+        {
+          "from": 144745808,
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "members": [
+        {
+          "name": "palette",
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "name": "graphic",
+          "offset": 1,
+          "size": 1
+        },
+        {
+          "name": "enemy_level",
+          "offset": 2,
+          "size": 1
+        },
+        {
+          "name": "flags",
+          "offset": 3,
+          "size": 1
+        },
+        {
+          "name": "second_table_id",
+          "offset": 4,
+          "size": 1
+        },
+        {
+          "name": "type",
+          "offset": 5,
+          "size": 1
+        },
+        {
+          "name": "unk1",
+          "offset": 6,
+          "size": 1
+        },
+        {
+          "name": "sia",
+          "offset": 7,
+          "size": 1
+        },
+        {
+          "name": "price",
+          "offset": 8,
+          "size": 2
+        },
+        {
+          "name": "shop_avail",
+          "offset": 10,
+          "size": 1
+        },
+        {
+          "name": "unk2",
+          "offset": 11,
+          "size": 1
+        }
+      ],
+      "name": "ItemData",
+      "xrefs": [
+        {
+          "from": 144803600,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143769880,
+          "type": 3
+        },
+        {
+          "from": 143994620,
+          "type": 3
+        },
+        {
+          "from": 144513048,
+          "type": 3
+        },
+        {
+          "from": 143288604,
+          "type": 3
+        },
+        {
+          "from": 143288644,
+          "type": 3
+        },
+        {
+          "from": 143417260,
+          "type": 3
+        },
+        {
+          "from": 144230456,
+          "type": 3
+        },
+        {
+          "from": 144230920,
+          "type": 3
+        },
+        {
+          "from": 143280844,
+          "type": 3
+        },
+        {
+          "from": 143280904,
+          "type": 3
+        },
+        {
+          "from": 143280924,
+          "type": 3
+        },
+        {
+          "from": 143281044,
+          "type": 3
+        },
+        {
+          "from": 143281076,
+          "type": 3
+        },
+        {
+          "from": 143281300,
+          "type": 3
+        },
+        {
+          "from": 143281360,
+          "type": 3
+        },
+        {
+          "from": 143281420,
+          "type": 3
+        },
+        {
+          "from": 143357788,
+          "type": 3
+        },
+        {
+          "from": 143413016,
+          "type": 3
+        },
+        {
+          "from": 143413260,
+          "type": 3
+        },
+        {
+          "from": 143414164,
+          "type": 3
+        },
+        {
+          "from": 143414216,
+          "type": 3
+        },
+        {
+          "from": 143414268,
+          "type": 3
+        },
+        {
+          "from": 143414320,
+          "type": 3
+        },
+        {
+          "from": 143414372,
+          "type": 3
+        },
+        {
+          "from": 143417160,
+          "type": 3
+        },
+        {
+          "from": 143754344,
+          "type": 3
+        },
+        {
+          "from": 143954600,
+          "type": 3
+        },
+        {
+          "from": 143966916,
+          "type": 3
+        },
+        {
+          "from": 144046888,
+          "type": 3
+        },
+        {
+          "from": 144450820,
+          "type": 3
+        },
+        {
+          "from": 144500648,
+          "type": 3
+        },
+        {
+          "from": 144803536,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 142915048,
+          "type": 3
+        },
+        {
+          "from": 142922284,
+          "type": 3
+        },
+        {
+          "from": 143283444,
+          "type": 3
+        },
+        {
+          "from": 143291452,
+          "type": 3
+        },
+        {
+          "from": 143299352,
+          "type": 3
+        },
+        {
+          "from": 143320660,
+          "type": 3
+        },
+        {
+          "from": 143324960,
+          "type": 3
+        },
+        {
+          "from": 143326552,
+          "type": 3
+        },
+        {
+          "from": 143327620,
+          "type": 3
+        },
+        {
+          "from": 143328324,
+          "type": 3
+        },
+        {
+          "from": 143328772,
+          "type": 3
+        },
+        {
+          "from": 143329600,
+          "type": 3
+        },
+        {
+          "from": 143343700,
+          "type": 3
+        },
+        {
+          "from": 143356776,
+          "type": 3
+        },
+        {
+          "from": 143387188,
+          "type": 3
+        },
+        {
+          "from": 143414588,
+          "type": 3
+        },
+        {
+          "from": 143417184,
+          "type": 3
+        },
+        {
+          "from": 143456272,
+          "type": 3
+        },
+        {
+          "from": 143456924,
+          "type": 3
+        },
+        {
+          "from": 143465072,
+          "type": 3
+        },
+        {
+          "from": 143465180,
+          "type": 3
+        },
+        {
+          "from": 143465500,
+          "type": 3
+        },
+        {
+          "from": 144184356,
+          "type": 3
+        },
+        {
+          "from": 144184428,
+          "type": 3
+        },
+        {
+          "from": 144229408,
+          "type": 3
+        },
+        {
+          "from": 144229460,
+          "type": 3
+        },
+        {
+          "from": 144230300,
+          "type": 3
+        },
+        {
+          "from": 144230764,
+          "type": 3
+        },
+        {
+          "from": 143414676,
+          "type": 3
+        },
+        {
+          "from": 143366064,
+          "type": 3
+        },
+        {
+          "from": 143836508,
+          "type": 3
+        },
+        {
+          "from": 143929420,
+          "type": 3
+        },
+        {
+          "from": 143967152,
+          "type": 3
+        },
+        {
+          "from": 143967408,
+          "type": 3
+        },
+        {
+          "from": 143974300,
+          "type": 3
+        },
+        {
+          "from": 143999836,
+          "type": 3
+        },
+        {
+          "from": 144002248,
+          "type": 3
+        },
+        {
+          "from": 144230808,
+          "type": 3
+        },
+        {
+          "from": 144624460,
+          "type": 3
+        },
+        {
+          "from": 144803664,
+          "offset": 0,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "members": [
+        {
+          "name": "item_id",
+          "offset": 0,
+          "size": 2
+        }
+      ],
+      "name": "UnkStruct",
+      "xrefs": []
+    },
+    {
+      "idx": 3,
+      "members": [
+        {
+          "name": "sprite_set",
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "name": "unit_id",
+          "offset": 1,
+          "size": 1
+        },
+        {
+          "name": "party_id",
+          "offset": 2,
+          "size": 1
+        },
+        {
+          "name": "job_id",
+          "offset": 3,
+          "size": 1
+        },
+        {
+          "name": "pallete",
+          "offset": 4,
+          "size": 1
+        },
+        {
+          "name": "ENTD_flags",
+          "offset": 5,
+          "size": 1
+        },
+        {
+          "name": "gender_type",
+          "offset": 6,
+          "size": 1
+        },
+        {
+          "name": "death_counter",
+          "offset": 7,
+          "size": 1
+        },
+        {
+          "name": "birthday",
+          "offset": 8,
+          "size": 1
+        },
+        {
+          "name": "zodiac_sign",
+          "offset": 9,
+          "size": 1
+        },
+        {
+          "name": "innate_ability_1",
+          "offset": 10,
+          "size": 2
+        },
+        {
+          "name": "innate_ability_2",
+          "offset": 12,
+          "size": 2
+        },
+        {
+          "name": "innate_ability_3",
+          "offset": 14,
+          "size": 2
+        },
+        {
+          "name": "innate_ability_4",
+          "offset": 16,
+          "size": 2
+        },
+        {
+          "name": "primary",
+          "offset": 18,
+          "size": 1
+        },
+        {
+          "name": "secondary",
+          "offset": 19,
+          "size": 1
+        },
+        {
+          "name": "reaction",
+          "offset": 20,
+          "size": 2
+        },
+        {
+          "name": "support",
+          "offset": 22,
+          "size": 2
+        },
+        {
+          "name": "movement",
+          "offset": 24,
+          "size": 2
+        },
+        {
+          "name": "head_equip",
+          "offset": 26,
+          "size": 2
+        },
+        {
+          "name": "body_equip",
+          "offset": 28,
+          "size": 2
+        },
+        {
+          "name": "accessory_equip",
+          "offset": 30,
+          "size": 2
+        },
+        {
+          "name": "rh_weapon",
+          "offset": 32,
+          "size": 2
+        },
+        {
+          "name": "rh_shield",
+          "offset": 34,
+          "size": 2
+        },
+        {
+          "name": "lh_weapon",
+          "offset": 36,
+          "size": 2
+        },
+        {
+          "name": "lh_shield",
+          "offset": 38,
+          "size": 2
+        },
+        {
+          "name": "experience",
+          "offset": 40,
+          "size": 1
+        },
+        {
+          "name": "level",
+          "offset": 41,
+          "size": 1
+        },
+        {
+          "name": "original_brave",
+          "offset": 42,
+          "size": 1
+        },
+        {
+          "name": "brave",
+          "offset": 43,
+          "size": 1
+        },
+        {
+          "name": "original_faith",
+          "offset": 44,
+          "size": 1
+        },
+        {
+          "name": "faith",
+          "offset": 45,
+          "size": 1
+        },
+        {
+          "name": "units_turn?",
+          "offset": 46,
+          "size": 1
+        },
+        {
+          "name": "???",
+          "offset": 47,
+          "size": 1
+        },
+        {
+          "name": "current_HP",
+          "offset": 48,
+          "size": 2
+        },
+        {
+          "name": "max_HP",
+          "offset": 50,
+          "size": 2
+        },
+        {
+          "name": "current_MP",
+          "offset": 52,
+          "size": 2
+        },
+        {
+          "name": "max_MP",
+          "offset": 54,
+          "size": 2
+        },
+        {
+          "name": "original_pa",
+          "offset": 56,
+          "size": 1
+        },
+        {
+          "name": "original_ma",
+          "offset": 57,
+          "size": 1
+        },
+        {
+          "name": "original_sp",
+          "offset": 58,
+          "size": 1
+        },
+        {
+          "name": "bonus_PA",
+          "offset": 59,
+          "size": 1
+        },
+        {
+          "name": "bonus_MA",
+          "offset": 60,
+          "size": 1
+        },
+        {
+          "name": "bonus_SP",
+          "offset": 61,
+          "size": 1
+        },
+        {
+          "name": "PA",
+          "offset": 62,
+          "size": 1
+        },
+        {
+          "name": "MA",
+          "offset": 63,
+          "size": 1
+        },
+        {
+          "name": "Speed",
+          "offset": 64,
+          "size": 1
+        },
+        {
+          "name": "CT",
+          "offset": 65,
+          "size": 1
+        },
+        {
+          "name": "Move",
+          "offset": 66,
+          "size": 1
+        },
+        {
+          "name": "Jump",
+          "offset": 67,
+          "size": 1
+        },
+        {
+          "name": "WP_1",
+          "offset": 68,
+          "size": 1
+        },
+        {
+          "name": "WP_2",
+          "offset": 69,
+          "size": 1
+        },
+        {
+          "name": "WEVA_1",
+          "offset": 70,
+          "size": 1
+        },
+        {
+          "name": "WEVA_2",
+          "offset": 71,
+          "size": 1
+        },
+        {
+          "name": "Acc_PEV",
+          "offset": 72,
+          "size": 1
+        },
+        {
+          "name": "RH_ShieldPEV",
+          "offset": 73,
+          "size": 1
+        },
+        {
+          "name": "LH_ShieldPEV",
+          "offset": 74,
+          "size": 1
+        },
+        {
+          "name": "C_Evasion",
+          "offset": 75,
+          "size": 1
+        },
+        {
+          "name": "Acc_MEV",
+          "offset": 76,
+          "size": 1
+        },
+        {
+          "name": "RH_ShieldMEV",
+          "offset": 77,
+          "size": 1
+        },
+        {
+          "name": "LH_ShieldMEV",
+          "offset": 78,
+          "size": 1
+        },
+        {
+          "name": "X_coordinate",
+          "offset": 79,
+          "size": 1
+        },
+        {
+          "name": "Y_coordinate",
+          "offset": 80,
+          "size": 1
+        },
+        {
+          "name": "orientation",
+          "offset": 81,
+          "size": 1
+        },
+        {
+          "name": "equippable_mask_1",
+          "offset": 82,
+          "size": 1
+        },
+        {
+          "name": "equippable_mask_2",
+          "offset": 83,
+          "size": 1
+        },
+        {
+          "name": "equippable_mask_3",
+          "offset": 84,
+          "size": 1
+        },
+        {
+          "name": "equippable_mask_4",
+          "offset": 85,
+          "size": 1
+        },
+        {
+          "name": "equippable_mask_5",
+          "offset": 86,
+          "size": 1
+        },
+        {
+          "name": "unknown_k",
+          "offset": 87,
+          "size": 1
+        },
+        {
+          "name": "innate_stat_mask_1",
+          "offset": 88,
+          "size": 1
+        },
+        {
+          "name": "innate_stat_mask_2",
+          "offset": 89,
+          "size": 1
+        },
+        {
+          "name": "innate_stat_mask_3",
+          "offset": 90,
+          "size": 1
+        },
+        {
+          "name": "innate_stat_mask_4",
+          "offset": 91,
+          "size": 1
+        },
+        {
+          "name": "innate_stat_mask_5",
+          "offset": 92,
+          "size": 1
+        },
+        {
+          "name": "status_immune_mask_1",
+          "offset": 93,
+          "size": 1
+        },
+        {
+          "name": "status_immune_mask_2",
+          "offset": 94,
+          "size": 1
+        },
+        {
+          "name": "status_immune_mask_3",
+          "offset": 95,
+          "size": 1
+        },
+        {
+          "name": "status_immune_mask_4",
+          "offset": 96,
+          "size": 1
+        },
+        {
+          "name": "status_immune_mask_5",
+          "offset": 97,
+          "size": 1
+        },
+        {
+          "name": "current_status_mask_1",
+          "offset": 98,
+          "size": 1
+        },
+        {
+          "name": "current_status_mask_2",
+          "offset": 99,
+          "size": 1
+        },
+        {
+          "name": "current_status_mask_3",
+          "offset": 100,
+          "size": 1
+        },
+        {
+          "name": "current_status_mask_4",
+          "offset": 101,
+          "size": 1
+        },
+        {
+          "name": "current_status_mask_5",
+          "offset": 102,
+          "size": 1
+        },
+        {
+          "name": "Poison_CT",
+          "offset": 103,
+          "size": 1
+        },
+        {
+          "name": "Regen_CT",
+          "offset": 104,
+          "size": 1
+        },
+        {
+          "name": "Protect_CT",
+          "offset": 105,
+          "size": 1
+        },
+        {
+          "name": "Shell_CT",
+          "offset": 106,
+          "size": 1
+        },
+        {
+          "name": "Haste_CT",
+          "offset": 107,
+          "size": 1
+        },
+        {
+          "name": "Slow_CT",
+          "offset": 108,
+          "size": 1
+        },
+        {
+          "name": "Stop_CT",
+          "offset": 109,
+          "size": 1
+        },
+        {
+          "name": "Wall_CT",
+          "offset": 110,
+          "size": 1
+        },
+        {
+          "name": "Faith_CT",
+          "offset": 111,
+          "size": 1
+        },
+        {
+          "name": "Innocent_CT",
+          "offset": 112,
+          "size": 1
+        },
+        {
+          "name": "Charm_CT",
+          "offset": 113,
+          "size": 1
+        },
+        {
+          "name": "Sleep_CT",
+          "offset": 114,
+          "size": 1
+        },
+        {
+          "name": "Immobilize_CT",
+          "offset": 115,
+          "size": 1
+        },
+        {
+          "name": "Disable_CT",
+          "offset": 116,
+          "size": 1
+        },
+        {
+          "name": "Reflect_CT",
+          "offset": 117,
+          "size": 1
+        },
+        {
+          "name": "Doom_CT",
+          "offset": 118,
+          "size": 1
+        },
+        {
+          "name": "elemental_abs_mask",
+          "offset": 119,
+          "size": 1
+        },
+        {
+          "name": "elemental_null_mask",
+          "offset": 120,
+          "size": 1
+        },
+        {
+          "name": "elemental_half_mask",
+          "offset": 121,
+          "size": 1
+        },
+        {
+          "name": "elemental_weak_mask",
+          "offset": 122,
+          "size": 1
+        },
+        {
+          "name": "elemental_boost_mask",
+          "offset": 123,
+          "size": 1
+        },
+        {
+          "name": "Raw_HP",
+          "offset": 124,
+          "size": 2
+        },
+        {
+          "name": "Raw_MP",
+          "offset": 127,
+          "size": 2
+        },
+        {
+          "name": "Raw_SP",
+          "offset": 130,
+          "size": 2
+        },
+        {
+          "name": "Raw_PA",
+          "offset": 133,
+          "size": 2
+        },
+        {
+          "name": "Raw_MA",
+          "offset": 136,
+          "size": 2
+        },
+        {
+          "name": "HP_Growth",
+          "offset": 139,
+          "size": 1
+        },
+        {
+          "name": "HP_Multiplier",
+          "offset": 140,
+          "size": 1
+        },
+        {
+          "name": "MP_Growth",
+          "offset": 141,
+          "size": 1
+        },
+        {
+          "name": "MP_Mulitplier",
+          "offset": 142,
+          "size": 1
+        },
+        {
+          "name": "SP_Growth",
+          "offset": 143,
+          "size": 1
+        },
+        {
+          "name": "SP_Multiplier",
+          "offset": 144,
+          "size": 1
+        },
+        {
+          "name": "PA_Growth",
+          "offset": 145,
+          "size": 1
+        },
+        {
+          "name": "PA_Multiplier",
+          "offset": 146,
+          "size": 1
+        },
+        {
+          "name": "MA_Growth",
+          "offset": 147,
+          "size": 1
+        },
+        {
+          "name": "MA_Multiplier",
+          "offset": 148,
+          "size": 1
+        },
+        {
+          "name": "reactions_mask_1",
+          "offset": 149,
+          "size": 1
+        },
+        {
+          "name": "reactions_mask_2",
+          "offset": 150,
+          "size": 1
+        },
+        {
+          "name": "reactions_mask_3",
+          "offset": 151,
+          "size": 1
+        },
+        {
+          "name": "reactions_mask_4",
+          "offset": 152,
+          "size": 1
+        },
+        {
+          "name": "support_mask_1",
+          "offset": 153,
+          "size": 1
+        },
+        {
+          "name": "support_mask_2",
+          "offset": 154,
+          "size": 1
+        },
+        {
+          "name": "support_mask_3",
+          "offset": 155,
+          "size": 1
+        },
+        {
+          "name": "support_mask_4",
+          "offset": 156,
+          "size": 1
+        },
+        {
+          "name": "movement_mask_1",
+          "offset": 157,
+          "size": 1
+        },
+        {
+          "name": "movement_mask_2",
+          "offset": 158,
+          "size": 1
+        },
+        {
+          "name": "movement_mask_3",
+          "offset": 159,
+          "size": 1
+        },
+        {
+          "name": "unlocked_jobs_mask_1",
+          "offset": 160,
+          "size": 1
+        },
+        {
+          "name": "unlocked_jobs_mask_2",
+          "offset": 161,
+          "size": 1
+        },
+        {
+          "name": "unlocked_jobs_mask_3",
+          "offset": 162,
+          "size": 1
+        },
+        {
+          "name": "base_abilities_mask_1",
+          "offset": 163,
+          "size": 1
+        },
+        {
+          "name": "base_abilities_mask_2",
+          "offset": 164,
+          "size": 1
+        },
+        {
+          "name": "base_rsm_mask",
+          "offset": 165,
+          "size": 1
+        },
+        {
+          "name": "chemist_abilities_mask_1",
+          "offset": 166,
+          "size": 1
+        },
+        {
+          "name": "chemist_abilities_mask_2",
+          "offset": 167,
+          "size": 1
+        },
+        {
+          "name": "chemist_rsm_mask",
+          "offset": 168,
+          "size": 1
+        },
+        {
+          "name": "knight_abilities_mask_1",
+          "offset": 169,
+          "size": 1
+        },
+        {
+          "name": "knight_abilities_mask_2",
+          "offset": 170,
+          "size": 1
+        },
+        {
+          "name": "knight_rsm_mask",
+          "offset": 171,
+          "size": 1
+        },
+        {
+          "name": "archer_abilities_mask_1",
+          "offset": 172,
+          "size": 1
+        },
+        {
+          "name": "archer_abilities_mask_2",
+          "offset": 173,
+          "size": 1
+        },
+        {
+          "name": "archer_rsm_mask",
+          "offset": 174,
+          "size": 1
+        },
+        {
+          "name": "monk_abilities_mask_1",
+          "offset": 175,
+          "size": 1
+        },
+        {
+          "name": "monk_abilities_mask_2",
+          "offset": 176,
+          "size": 1
+        },
+        {
+          "name": "monk_rsm_mask",
+          "offset": 177,
+          "size": 1
+        },
+        {
+          "name": "white_mage_abilities_mask_1",
+          "offset": 178,
+          "size": 1
+        },
+        {
+          "name": "white_mage_abilities_mask_2",
+          "offset": 179,
+          "size": 1
+        },
+        {
+          "name": "white_mage_rsm_mask",
+          "offset": 180,
+          "size": 1
+        },
+        {
+          "name": "black_mage_abilities_mask_1",
+          "offset": 181,
+          "size": 1
+        },
+        {
+          "name": "black_mage_abilities_mask_2",
+          "offset": 182,
+          "size": 1
+        },
+        {
+          "name": "black_mage_rsm_mask",
+          "offset": 183,
+          "size": 1
+        },
+        {
+          "name": "time_mage_abilities_mask_1",
+          "offset": 184,
+          "size": 1
+        },
+        {
+          "name": "time_mage_abilities_mask_2",
+          "offset": 185,
+          "size": 1
+        },
+        {
+          "name": "time_mage_rsm_mask",
+          "offset": 186,
+          "size": 1
+        },
+        {
+          "name": "summoner_abilities_mask_1",
+          "offset": 187,
+          "size": 1
+        },
+        {
+          "name": "summoner_abilities_mask_2",
+          "offset": 188,
+          "size": 1
+        },
+        {
+          "name": "summoner_rsm_mask",
+          "offset": 189,
+          "size": 1
+        },
+        {
+          "name": "thief_abilities_mask_1",
+          "offset": 190,
+          "size": 1
+        },
+        {
+          "name": "thief_abilities_mask_2",
+          "offset": 191,
+          "size": 1
+        },
+        {
+          "name": "thief_rsm_mask",
+          "offset": 192,
+          "size": 1
+        },
+        {
+          "name": "orator_abilities_mask_1",
+          "offset": 193,
+          "size": 1
+        },
+        {
+          "name": "orator_abilities_mask_2",
+          "offset": 194,
+          "size": 1
+        },
+        {
+          "name": "orator_rsm_mask",
+          "offset": 195,
+          "size": 1
+        },
+        {
+          "name": "mystic_abilities_mask_1",
+          "offset": 196,
+          "size": 1
+        },
+        {
+          "name": "mystic_abilities_mask_2",
+          "offset": 197,
+          "size": 1
+        },
+        {
+          "name": "mystic_rsm_mask",
+          "offset": 198,
+          "size": 1
+        },
+        {
+          "name": "geomancer_abilities_mask_1",
+          "offset": 199,
+          "size": 1
+        },
+        {
+          "name": "geomancer_abilities_mask_2",
+          "offset": 200,
+          "size": 1
+        },
+        {
+          "name": "geomancer_rsm_mask",
+          "offset": 201,
+          "size": 1
+        },
+        {
+          "name": "dragoon_abilities_mask_1",
+          "offset": 202,
+          "size": 1
+        },
+        {
+          "name": "dragoon_abilities_mask_2",
+          "offset": 203,
+          "size": 1
+        },
+        {
+          "name": "dragoon_rsm_mask",
+          "offset": 204,
+          "size": 1
+        },
+        {
+          "name": "samurai_abilities_mask_1",
+          "offset": 205,
+          "size": 1
+        },
+        {
+          "name": "samurai_abilities_mask_2",
+          "offset": 206,
+          "size": 1
+        },
+        {
+          "name": "samurai_rsm_mask",
+          "offset": 207,
+          "size": 1
+        },
+        {
+          "name": "ninja_abilities_mask_1",
+          "offset": 208,
+          "size": 1
+        },
+        {
+          "name": "ninja_abilities_mask_2",
+          "offset": 209,
+          "size": 1
+        },
+        {
+          "name": "ninja_rsm_mask",
+          "offset": 210,
+          "size": 1
+        },
+        {
+          "name": "arithmetician_abilities_mask_1",
+          "offset": 211,
+          "size": 1
+        },
+        {
+          "name": "arithmetician_abilities_mask_2",
+          "offset": 212,
+          "size": 1
+        },
+        {
+          "name": "arithmetician_rsm_mask",
+          "offset": 213,
+          "size": 1
+        },
+        {
+          "name": "bard_abilities_mask_1",
+          "offset": 214,
+          "size": 1
+        },
+        {
+          "name": "bard_abilities_mask_2",
+          "offset": 215,
+          "size": 1
+        },
+        {
+          "name": "bard_rsm_mask",
+          "offset": 216,
+          "size": 1
+        },
+        {
+          "name": "dancer_abilities_mask_1",
+          "offset": 217,
+          "size": 1
+        },
+        {
+          "name": "dancer_abilities_mask_2",
+          "offset": 218,
+          "size": 1
+        },
+        {
+          "name": "dancer_rsm_mask",
+          "offset": 219,
+          "size": 1
+        },
+        {
+          "name": "mime_abilities_mask_1",
+          "offset": 220,
+          "size": 1
+        },
+        {
+          "name": "mime_abilities_mask_2",
+          "offset": 221,
+          "size": 1
+        },
+        {
+          "name": "mime_rsm_mask",
+          "offset": 222,
+          "size": 1
+        },
+        {
+          "name": "dark_knight_abilities_mask_1",
+          "offset": 223,
+          "size": 1
+        },
+        {
+          "name": "dark_knight_abilities_mask_2",
+          "offset": 224,
+          "size": 1
+        },
+        {
+          "name": "dark_knight_rsm_mask",
+          "offset": 225,
+          "size": 1
+        },
+        {
+          "name": "onion_knight_abilities_mask_1",
+          "offset": 226,
+          "size": 1
+        },
+        {
+          "name": "onion_knight_abilities_mask_2",
+          "offset": 227,
+          "size": 1
+        },
+        {
+          "name": "onion_knight_rsm_mask",
+          "offset": 228,
+          "size": 1
+        },
+        {
+          "name": "base_chemist_job_lvl",
+          "offset": 229,
+          "size": 1
+        },
+        {
+          "name": "knight_archer_job_lvl",
+          "offset": 230,
+          "size": 1
+        },
+        {
+          "name": "monk_white_mage_job_lvl",
+          "offset": 231,
+          "size": 1
+        },
+        {
+          "name": "black_mage_time_mage_job_lvl",
+          "offset": 232,
+          "size": 1
+        },
+        {
+          "name": "summoner_thief_job_lvl",
+          "offset": 233,
+          "size": 1
+        },
+        {
+          "name": "orator_mystic_job_lvl",
+          "offset": 234,
+          "size": 1
+        },
+        {
+          "name": "geomancer_dragoon_job_lvl",
+          "offset": 235,
+          "size": 1
+        },
+        {
+          "name": "samurai_ninja_job_level",
+          "offset": 236,
+          "size": 1
+        },
+        {
+          "name": "arithemetician_bard_job_lvl",
+          "offset": 237,
+          "size": 1
+        },
+        {
+          "name": "dancer_mime_job_lvl",
+          "offset": 238,
+          "size": 1
+        },
+        {
+          "name": "dark_knight_onion_knight_job_lvl",
+          "offset": 239,
+          "size": 1
+        },
+        {
+          "name": "unknown_a",
+          "offset": 240,
+          "size": 1
+        },
+        {
+          "name": "unknown_b",
+          "offset": 241,
+          "size": 1
+        },
+        {
+          "name": "base_job_JP",
+          "offset": 242,
+          "size": 2
+        },
+        {
+          "name": "chemist_job_JP",
+          "offset": 244,
+          "size": 2
+        },
+        {
+          "name": "knight_job_jp",
+          "offset": 246,
+          "size": 2
+        },
+        {
+          "name": "archer_job_jp",
+          "offset": 248,
+          "size": 2
+        },
+        {
+          "name": "monk_job_jp",
+          "offset": 250,
+          "size": 2
+        },
+        {
+          "name": "white_mage_job_jp",
+          "offset": 252,
+          "size": 2
+        },
+        {
+          "name": "black_mage_job_jp",
+          "offset": 254,
+          "size": 2
+        },
+        {
+          "name": "time_mage_job_jp",
+          "offset": 256,
+          "size": 2
+        },
+        {
+          "name": "summoner_job_jp",
+          "offset": 258,
+          "size": 2
+        },
+        {
+          "name": "thief_job_jp",
+          "offset": 260,
+          "size": 2
+        },
+        {
+          "name": "orator_job_jp",
+          "offset": 262,
+          "size": 2
+        },
+        {
+          "name": "mystic_job_jp",
+          "offset": 264,
+          "size": 2
+        },
+        {
+          "name": "geomancer_job_jp",
+          "offset": 266,
+          "size": 2
+        },
+        {
+          "name": "dragoon_job_jp",
+          "offset": 268,
+          "size": 2
+        },
+        {
+          "name": "samurai_job_jp",
+          "offset": 270,
+          "size": 2
+        },
+        {
+          "name": "ninja_job_jp",
+          "offset": 272,
+          "size": 2
+        },
+        {
+          "name": "arithmetician_job_jp",
+          "offset": 274,
+          "size": 2
+        },
+        {
+          "name": "bard_job_jp",
+          "offset": 276,
+          "size": 2
+        },
+        {
+          "name": "dancer_job_jp",
+          "offset": 278,
+          "size": 2
+        },
+        {
+          "name": "mime_job_jp",
+          "offset": 280,
+          "size": 2
+        },
+        {
+          "name": "dark_knight_job_jp",
+          "offset": 282,
+          "size": 2
+        },
+        {
+          "name": "onion_knight_job_jp",
+          "offset": 284,
+          "size": 2
+        },
+        {
+          "name": "unknown_job_jp",
+          "offset": 286,
+          "size": 2
+        },
+        {
+          "name": "total_base_job_jp",
+          "offset": 288,
+          "size": 2
+        },
+        {
+          "name": "total_chemist_job_jp",
+          "offset": 290,
+          "size": 2
+        },
+        {
+          "name": "total_knight_job_jp",
+          "offset": 292,
+          "size": 2
+        },
+        {
+          "name": "total_archer_job_jp",
+          "offset": 294,
+          "size": 2
+        },
+        {
+          "name": "total_monk_job_jp",
+          "offset": 296,
+          "size": 2
+        },
+        {
+          "name": "total_white_mage_job_jp",
+          "offset": 298,
+          "size": 2
+        },
+        {
+          "name": "total_black_mage_job_jp",
+          "offset": 300,
+          "size": 2
+        },
+        {
+          "name": "total_time_mage_job_jp",
+          "offset": 302,
+          "size": 2
+        },
+        {
+          "name": "total_summoner_job_jp",
+          "offset": 304,
+          "size": 2
+        },
+        {
+          "name": "total_thief_job_jp",
+          "offset": 306,
+          "size": 2
+        },
+        {
+          "name": "total_orator_job_jp",
+          "offset": 308,
+          "size": 2
+        },
+        {
+          "name": "total_mystic_job_jp",
+          "offset": 310,
+          "size": 2
+        },
+        {
+          "name": "total_geomancer_job_jp",
+          "offset": 312,
+          "size": 2
+        },
+        {
+          "name": "total_dragoon_job_jp",
+          "offset": 314,
+          "size": 2
+        },
+        {
+          "name": "total_samurai_job_jp",
+          "offset": 316,
+          "size": 2
+        },
+        {
+          "name": "total_ninja_job_hp",
+          "offset": 318,
+          "size": 2
+        },
+        {
+          "name": "total_arithmetician_job_jp",
+          "offset": 320,
+          "size": 2
+        },
+        {
+          "name": "total_bard_job_jp",
+          "offset": 322,
+          "size": 2
+        },
+        {
+          "name": "total_dancer_job_jp",
+          "offset": 324,
+          "size": 2
+        },
+        {
+          "name": "total_mime_job_jp",
+          "offset": 326,
+          "size": 2
+        },
+        {
+          "name": "total_dark_knight_job_jp",
+          "offset": 328,
+          "size": 2
+        },
+        {
+          "name": "total_onion_knight_job_jp",
+          "offset": 330,
+          "size": 2
+        },
+        {
+          "name": "total_unknown_job_jp",
+          "offset": 332,
+          "size": 2
+        },
+        {
+          "name": "unit_name",
+          "offset": 334,
+          "size": 16
+        },
+        {
+          "name": "job_name",
+          "offset": 350,
+          "size": 16
+        },
+        {
+          "name": "primary_skill_name",
+          "offset": 366,
+          "size": 8
+        },
+        {
+          "name": "secondary_skillset_name",
+          "offset": 374,
+          "size": 8
+        },
+        {
+          "name": "number_of_deaths",
+          "offset": 382,
+          "size": 1
+        },
+        {
+          "name": "current_ability_ct",
+          "offset": 383,
+          "size": 1
+        },
+        {
+          "name": "graphic",
+          "offset": 384,
+          "size": 1
+        },
+        {
+          "name": "portrait",
+          "offset": 385,
+          "size": 1
+        },
+        {
+          "name": "palette",
+          "offset": 386,
+          "size": 1
+        },
+        {
+          "name": "ENTD_ID",
+          "offset": 387,
+          "size": 1
+        },
+        {
+          "name": "special_skillset",
+          "offset": 388,
+          "size": 1
+        },
+        {
+          "name": "war_trophy",
+          "offset": 389,
+          "size": 1
+        },
+        {
+          "name": "bonus_money",
+          "offset": 390,
+          "size": 1
+        },
+        {
+          "name": "ai_something_1",
+          "offset": 391,
+          "size": 1
+        },
+        {
+          "name": "ai_something_2",
+          "offset": 392,
+          "size": 1
+        },
+        {
+          "name": "unit_name_id",
+          "offset": 400,
+          "size": 2
+        },
+        {
+          "name": "attacker_self_id",
+          "offset": 402,
+          "size": 1
+        },
+        {
+          "name": "skillset_of_last_action",
+          "offset": 403,
+          "size": 1
+        },
+        {
+          "name": "last_attack_used",
+          "offset": 404,
+          "size": 2
+        },
+        {
+          "name": "arithmetician_ability_type",
+          "offset": 406,
+          "size": 2
+        },
+        {
+          "name": "arithmetician_ability_number",
+          "offset": 408,
+          "size": 2
+        },
+        {
+          "name": "used_item_id",
+          "offset": 410,
+          "size": 2
+        },
+        {
+          "name": "tile_target_specific",
+          "offset": 412,
+          "size": 1
+        },
+        {
+          "name": "target_id?",
+          "offset": 413,
+          "size": 1
+        },
+        {
+          "name": "target_X",
+          "offset": 414,
+          "size": 1
+        },
+        {
+          "name": "terrain_mask",
+          "offset": 415,
+          "size": 1
+        },
+        {
+          "name": "target_map_level",
+          "offset": 416,
+          "size": 2
+        },
+        {
+          "name": "target_Y",
+          "offset": 418,
+          "size": 1
+        },
+        {
+          "name": "unknown_c",
+          "offset": 419,
+          "size": 1
+        },
+        {
+          "name": "unknown_d",
+          "offset": 420,
+          "size": 1
+        },
+        {
+          "name": "unknown_e",
+          "offset": 421,
+          "size": 1
+        },
+        {
+          "name": "mount_mask",
+          "offset": 422,
+          "size": 1
+        },
+        {
+          "name": "unit_state_mask",
+          "offset": 423,
+          "size": 1
+        },
+        {
+          "name": "item_required_mask",
+          "offset": 424,
+          "size": 1
+        },
+        {
+          "name": "unknown_f",
+          "offset": 425,
+          "size": 1
+        },
+        {
+          "name": "unit_turn",
+          "offset": 426,
+          "size": 1
+        },
+        {
+          "name": "movement_taken",
+          "offset": 427,
+          "size": 1
+        },
+        {
+          "name": "action_taken",
+          "offset": 428,
+          "size": 1
+        },
+        {
+          "name": "unit_state_mask_2",
+          "offset": 429,
+          "size": 1
+        },
+        {
+          "name": "unit_id_no_check",
+          "offset": 430,
+          "size": 1
+        },
+        {
+          "name": "ability_ct",
+          "offset": 431,
+          "size": 1
+        },
+        {
+          "name": "attack_struct",
+          "offset": 432,
+          "size": 56
+        }
+      ],
+      "name": "BattleData",
+      "xrefs": [
+        {
+          "from": 143281332,
+          "type": 3
+        },
+        {
+          "from": 143281392,
+          "type": 3
+        },
+        {
+          "from": 143281452,
+          "type": 3
+        },
+        {
+          "from": 143290788,
+          "type": 3
+        },
+        {
+          "from": 143277616,
+          "type": 3
+        },
+        {
+          "from": 143279452,
+          "type": 3
+        },
+        {
+          "from": 143280968,
+          "type": 3
+        },
+        {
+          "from": 143281104,
+          "type": 3
+        },
+        {
+          "from": 143284220,
+          "type": 3
+        },
+        {
+          "from": 143280820,
+          "type": 3
+        },
+        {
+          "from": 143281276,
+          "type": 3
+        },
+        {
+          "from": 143288880,
+          "type": 3
+        },
+        {
+          "from": 143278868,
+          "type": 3
+        },
+        {
+          "from": 143278872,
+          "type": 3
+        },
+        {
+          "from": 143288280,
+          "type": 3
+        },
+        {
+          "from": 143288348,
+          "type": 3
+        },
+        {
+          "from": 143280872,
+          "type": 3
+        },
+        {
+          "from": 143281296,
+          "type": 3
+        },
+        {
+          "from": 143281328,
+          "type": 3
+        },
+        {
+          "from": 143282648,
+          "type": 3
+        },
+        {
+          "from": 143280900,
+          "type": 3
+        },
+        {
+          "from": 143280964,
+          "type": 3
+        },
+        {
+          "from": 143282808,
+          "type": 3
+        },
+        {
+          "from": 143288712,
+          "type": 3
+        },
+        {
+          "from": 143280920,
+          "type": 3
+        },
+        {
+          "from": 143281012,
+          "type": 3
+        },
+        {
+          "from": 143281356,
+          "type": 3
+        },
+        {
+          "from": 143281388,
+          "type": 3
+        },
+        {
+          "from": 143282836,
+          "type": 3
+        },
+        {
+          "from": 143288416,
+          "type": 3
+        },
+        {
+          "from": 143281040,
+          "type": 3
+        },
+        {
+          "from": 143281100,
+          "type": 3
+        },
+        {
+          "from": 143283000,
+          "type": 3
+        },
+        {
+          "from": 143288756,
+          "type": 3
+        },
+        {
+          "from": 143281060,
+          "type": 3
+        },
+        {
+          "from": 143281148,
+          "type": 3
+        },
+        {
+          "from": 143281416,
+          "type": 3
+        },
+        {
+          "from": 143281448,
+          "type": 3
+        },
+        {
+          "from": 143283028,
+          "type": 3
+        },
+        {
+          "from": 143288484,
+          "type": 3
+        },
+        {
+          "from": 143284544,
+          "type": 3
+        },
+        {
+          "from": 143284188,
+          "type": 3
+        },
+        {
+          "from": 143290828,
+          "type": 3
+        },
+        {
+          "from": 143343796,
+          "type": 3
+        },
+        {
+          "from": 143286164,
+          "type": 3
+        },
+        {
+          "from": 143286292,
+          "type": 3
+        },
+        {
+          "from": 143288876,
+          "type": 3
+        },
+        {
+          "from": 143349524,
+          "type": 3
+        },
+        {
+          "from": 143285964,
+          "type": 3
+        },
+        {
+          "from": 143286160,
+          "type": 3
+        },
+        {
+          "from": 143286288,
+          "type": 3
+        },
+        {
+          "from": 143305296,
+          "type": 3
+        },
+        {
+          "from": 143307544,
+          "type": 3
+        },
+        {
+          "from": 143370648,
+          "type": 3
+        },
+        {
+          "from": 143286224,
+          "type": 3
+        },
+        {
+          "from": 143343724,
+          "type": 3
+        },
+        {
+          "from": 143343772,
+          "type": 3
+        },
+        {
+          "from": 143370652,
+          "type": 3
+        },
+        {
+          "from": 143294620,
+          "type": 3
+        },
+        {
+          "from": 143296168,
+          "type": 3
+        },
+        {
+          "from": 143296172,
+          "type": 3
+        },
+        {
+          "from": 143296400,
+          "type": 3
+        },
+        {
+          "from": 143296476,
+          "type": 3
+        },
+        {
+          "from": 143297432,
+          "type": 3
+        },
+        {
+          "from": 143298456,
+          "type": 3
+        },
+        {
+          "from": 143303488,
+          "type": 3
+        },
+        {
+          "from": 143304616,
+          "type": 3
+        },
+        {
+          "from": 143304620,
+          "type": 3
+        },
+        {
+          "from": 143306712,
+          "type": 3
+        },
+        {
+          "from": 143307424,
+          "type": 3
+        },
+        {
+          "from": 143370636,
+          "type": 3
+        },
+        {
+          "from": 143284184,
+          "type": 3
+        },
+        {
+          "from": 143284508,
+          "type": 3
+        },
+        {
+          "from": 143280808,
+          "type": 3
+        },
+        {
+          "from": 143281552,
+          "type": 3
+        },
+        {
+          "from": 143281560,
+          "type": 3
+        },
+        {
+          "from": 143281556,
+          "type": 3
+        },
+        {
+          "from": 143281564,
+          "type": 3
+        },
+        {
+          "from": 143281644,
+          "type": 3
+        },
+        {
+          "from": 143281688,
+          "type": 3
+        },
+        {
+          "from": 143281752,
+          "type": 3
+        },
+        {
+          "from": 143281796,
+          "type": 3
+        },
+        {
+          "from": 143281848,
+          "type": 3
+        },
+        {
+          "from": 143281880,
+          "type": 3
+        },
+        {
+          "from": 143281916,
+          "type": 3
+        },
+        {
+          "from": 143281948,
+          "type": 3
+        },
+        {
+          "from": 143279844,
+          "type": 3
+        },
+        {
+          "from": 143279920,
+          "type": 3
+        },
+        {
+          "from": 143279788,
+          "type": 3
+        },
+        {
+          "from": 143279832,
+          "type": 3
+        },
+        {
+          "from": 143279800,
+          "type": 3
+        },
+        {
+          "from": 143280280,
+          "type": 3
+        },
+        {
+          "from": 143286992,
+          "type": 3
+        },
+        {
+          "from": 143288940,
+          "type": 3
+        },
+        {
+          "from": 143288964,
+          "type": 3
+        },
+        {
+          "from": 143299772,
+          "type": 3
+        },
+        {
+          "from": 143302888,
+          "type": 3
+        },
+        {
+          "from": 143303244,
+          "type": 3
+        },
+        {
+          "from": 143303252,
+          "type": 3
+        },
+        {
+          "from": 143303304,
+          "type": 3
+        },
+        {
+          "from": 143349072,
+          "type": 3
+        },
+        {
+          "from": 143279996,
+          "type": 3
+        },
+        {
+          "from": 143288980,
+          "type": 3
+        },
+        {
+          "from": 143303224,
+          "type": 3
+        },
+        {
+          "from": 143303232,
+          "type": 3
+        },
+        {
+          "from": 143349116,
+          "type": 3
+        },
+        {
+          "from": 143349124,
+          "type": 3
+        },
+        {
+          "from": 143279648,
+          "type": 3
+        },
+        {
+          "from": 143286364,
+          "type": 3
+        },
+        {
+          "from": 143286528,
+          "type": 3
+        },
+        {
+          "from": 143292044,
+          "type": 3
+        },
+        {
+          "from": 143295576,
+          "type": 3
+        },
+        {
+          "from": 143296740,
+          "type": 3
+        },
+        {
+          "from": 143296788,
+          "type": 3
+        },
+        {
+          "from": 143299444,
+          "type": 3
+        },
+        {
+          "from": 143299784,
+          "type": 3
+        },
+        {
+          "from": 143303072,
+          "type": 3
+        },
+        {
+          "from": 143303820,
+          "type": 3
+        },
+        {
+          "from": 143303868,
+          "type": 3
+        },
+        {
+          "from": 143304864,
+          "type": 3
+        },
+        {
+          "from": 143288996,
+          "type": 3
+        },
+        {
+          "from": 143292208,
+          "type": 3
+        },
+        {
+          "from": 143292252,
+          "type": 3
+        },
+        {
+          "from": 143295564,
+          "type": 3
+        },
+        {
+          "from": 143296684,
+          "type": 3
+        },
+        {
+          "from": 143299652,
+          "type": 3
+        },
+        {
+          "from": 143303212,
+          "type": 3
+        },
+        {
+          "from": 143303764,
+          "type": 3
+        },
+        {
+          "from": 143303808,
+          "type": 3
+        },
+        {
+          "from": 143349136,
+          "type": 3
+        },
+        {
+          "from": 143349164,
+          "type": 3
+        },
+        {
+          "from": 143291292,
+          "type": 3
+        },
+        {
+          "from": 143294144,
+          "type": 3
+        },
+        {
+          "from": 143294208,
+          "type": 3
+        },
+        {
+          "from": 143294864,
+          "type": 3
+        },
+        {
+          "from": 143296968,
+          "type": 3
+        },
+        {
+          "from": 143299708,
+          "type": 3
+        },
+        {
+          "from": 143303192,
+          "type": 3
+        },
+        {
+          "from": 143304296,
+          "type": 3
+        },
+        {
+          "from": 143304360,
+          "type": 3
+        },
+        {
+          "from": 143286676,
+          "type": 3
+        },
+        {
+          "from": 143286720,
+          "type": 3
+        },
+        {
+          "from": 143286732,
+          "type": 3
+        },
+        {
+          "from": 143286884,
+          "type": 3
+        },
+        {
+          "from": 143295268,
+          "type": 3
+        },
+        {
+          "from": 143298484,
+          "type": 3
+        },
+        {
+          "from": 143303516,
+          "type": 3
+        },
+        {
+          "from": 143306740,
+          "type": 3
+        },
+        {
+          "from": 143307440,
+          "type": 3
+        },
+        {
+          "from": 143280728,
+          "type": 3
+        },
+        {
+          "from": 143290812,
+          "type": 3
+        },
+        {
+          "from": 143291232,
+          "type": 3
+        },
+        {
+          "from": 143303132,
+          "type": 3
+        },
+        {
+          "from": 143291852,
+          "type": 3
+        },
+        {
+          "from": 143292136,
+          "type": 3
+        },
+        {
+          "from": 143293904,
+          "type": 3
+        },
+        {
+          "from": 143294636,
+          "type": 3
+        },
+        {
+          "from": 143295280,
+          "type": 3
+        },
+        {
+          "from": 143295324,
+          "type": 3
+        },
+        {
+          "from": 143295448,
+          "type": 3
+        },
+        {
+          "from": 143296492,
+          "type": 3
+        },
+        {
+          "from": 143296612,
+          "type": 3
+        },
+        {
+          "from": 143299280,
+          "type": 3
+        },
+        {
+          "from": 143299580,
+          "type": 3
+        },
+        {
+          "from": 143303528,
+          "type": 3
+        },
+        {
+          "from": 143303568,
+          "type": 3
+        },
+        {
+          "from": 143303692,
+          "type": 3
+        },
+        {
+          "from": 143289052,
+          "type": 3
+        },
+        {
+          "from": 143289224,
+          "type": 3
+        },
+        {
+          "from": 143291928,
+          "type": 3
+        },
+        {
+          "from": 143299364,
+          "type": 3
+        },
+        {
+          "from": 143291924,
+          "type": 3
+        },
+        {
+          "from": 143292148,
+          "type": 3
+        },
+        {
+          "from": 143293916,
+          "type": 3
+        },
+        {
+          "from": 143293964,
+          "type": 3
+        },
+        {
+          "from": 143294648,
+          "type": 3
+        },
+        {
+          "from": 143294692,
+          "type": 3
+        },
+        {
+          "from": 143295336,
+          "type": 3
+        },
+        {
+          "from": 143295460,
+          "type": 3
+        },
+        {
+          "from": 143295508,
+          "type": 3
+        },
+        {
+          "from": 143296504,
+          "type": 3
+        },
+        {
+          "from": 143296548,
+          "type": 3
+        },
+        {
+          "from": 143296624,
+          "type": 3
+        },
+        {
+          "from": 143296672,
+          "type": 3
+        },
+        {
+          "from": 143299376,
+          "type": 3
+        },
+        {
+          "from": 143299592,
+          "type": 3
+        },
+        {
+          "from": 143303580,
+          "type": 3
+        },
+        {
+          "from": 143303628,
+          "type": 3
+        },
+        {
+          "from": 143303704,
+          "type": 3
+        },
+        {
+          "from": 143303752,
+          "type": 3
+        },
+        {
+          "from": 143287608,
+          "type": 2
+        },
+        {
+          "from": 143279456,
+          "type": 3
+        },
+        {
+          "from": 143286476,
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "members": [
+        {
+          "name": "hit_flag",
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "name": "critical_hit_flag",
+          "offset": 1,
+          "size": 1
+        },
+        {
+          "name": "evade_type_mask",
+          "offset": 2,
+          "size": 1
+        },
+        {
+          "name": "item_to_break",
+          "offset": 3,
+          "size": 1
+        },
+        {
+          "name": "unknown_n",
+          "offset": 4,
+          "size": 1
+        },
+        {
+          "name": "unknown_m",
+          "offset": 5,
+          "size": 1
+        },
+        {
+          "name": "HP_damage",
+          "offset": 6,
+          "size": 2
+        },
+        {
+          "name": "HP_recovery",
+          "offset": 8,
+          "size": 2
+        },
+        {
+          "name": "MP_damage",
+          "offset": 10,
+          "size": 2
+        },
+        {
+          "name": "MP_recovery",
+          "offset": 12,
+          "size": 2
+        },
+        {
+          "name": "Gil_stolen",
+          "offset": 14,
+          "size": 2
+        },
+        {
+          "name": "reaction_id",
+          "offset": 16,
+          "size": 2
+        },
+        {
+          "name": "special_flags_mask_1",
+          "offset": 18,
+          "size": 1
+        },
+        {
+          "name": "special_flags_mask_2",
+          "offset": 19,
+          "size": 1
+        },
+        {
+          "name": "sp_change",
+          "offset": 20,
+          "size": 1
+        },
+        {
+          "name": "ct_change",
+          "offset": 21,
+          "size": 1
+        },
+        {
+          "name": "PA_change",
+          "offset": 22,
+          "size": 1
+        },
+        {
+          "name": "MA_change",
+          "offset": 23,
+          "size": 1
+        },
+        {
+          "name": "brave_change",
+          "offset": 24,
+          "size": 1
+        },
+        {
+          "name": "faith_change",
+          "offset": 25,
+          "size": 1
+        },
+        {
+          "name": "status_change",
+          "offset": 26,
+          "size": 1
+        },
+        {
+          "name": "remove_equipment_mask",
+          "offset": 27,
+          "size": 1
+        },
+        {
+          "name": "unknown_l",
+          "offset": 28,
+          "size": 1
+        },
+        {
+          "name": "status_infliction_mask_1",
+          "offset": 29,
+          "size": 1
+        },
+        {
+          "name": "status_infliction_mask_2",
+          "offset": 30,
+          "size": 1
+        },
+        {
+          "name": "status_infliction_mask_3",
+          "offset": 31,
+          "size": 1
+        },
+        {
+          "name": "status_infliction_mask_4",
+          "offset": 32,
+          "size": 1
+        },
+        {
+          "name": "status_infliction_mask_5",
+          "offset": 33,
+          "size": 1
+        },
+        {
+          "name": "status_removal_mask_1",
+          "offset": 34,
+          "size": 1
+        },
+        {
+          "name": "status_removal_mask_2",
+          "offset": 35,
+          "size": 1
+        },
+        {
+          "name": "status_removal_mask_3",
+          "offset": 36,
+          "size": 1
+        },
+        {
+          "name": "status_removal_mask_4",
+          "offset": 37,
+          "size": 1
+        },
+        {
+          "name": "status_removal_mask_5",
+          "offset": 38,
+          "size": 1
+        },
+        {
+          "name": "attack_type_mask",
+          "offset": 39,
+          "size": 1
+        },
+        {
+          "name": "last_attack_on_self",
+          "offset": 40,
+          "size": 2
+        },
+        {
+          "name": "stolen_exp",
+          "offset": 42,
+          "size": 1
+        },
+        {
+          "name": "stolen_jp",
+          "offset": 43,
+          "size": 1
+        },
+        {
+          "name": "hit_chance",
+          "offset": 44,
+          "size": 1
+        },
+        {
+          "name": "unknown_r",
+          "offset": 45,
+          "size": 1
+        },
+        {
+          "name": "maint_target_id",
+          "offset": 46,
+          "size": 1
+        },
+        {
+          "name": "unknown_s",
+          "offset": 47,
+          "size": 1
+        },
+        {
+          "name": "ENTD_flags_mask",
+          "offset": 48,
+          "size": 1
+        },
+        {
+          "name": "inflicted_status_list_1",
+          "offset": 49,
+          "size": 1
+        },
+        {
+          "name": "inflicted_status_list_2",
+          "offset": 50,
+          "size": 1
+        },
+        {
+          "name": "inflicted_status_list_3",
+          "offset": 51,
+          "size": 1
+        },
+        {
+          "name": "inflicted_status_list_4",
+          "offset": 52,
+          "size": 1
+        },
+        {
+          "name": "inflicted_status_list_5",
+          "offset": 53,
+          "size": 1
+        },
+        {
+          "name": "kill_count",
+          "offset": 54,
+          "size": 1
+        },
+        {
+          "name": "ID_of_killer",
+          "offset": 55,
+          "size": 1
+        }
+      ],
+      "name": "currentAction",
+      "xrefs": [
+        {
+          "from": 143282564,
+          "type": 2
+        },
+        {
+          "from": 143282780,
+          "type": 2
+        },
+        {
+          "from": 143282972,
+          "type": 2
+        },
+        {
+          "from": 143283168,
+          "type": 2
+        },
+        {
+          "from": 143283320,
+          "type": 2
+        },
+        {
+          "from": 143284324,
+          "type": 2
+        },
+        {
+          "from": 143284632,
+          "type": 2
+        },
+        {
+          "from": 143286624,
+          "type": 2
+        },
+        {
+          "from": 143286660,
+          "type": 2
+        },
+        {
+          "from": 143286800,
+          "type": 2
+        },
+        {
+          "from": 143290968,
+          "type": 2
+        },
+        {
+          "from": 143293784,
+          "type": 2
+        },
+        {
+          "from": 143294496,
+          "type": 2
+        },
+        {
+          "from": 143295128,
+          "type": 2
+        },
+        {
+          "from": 143296320,
+          "type": 3
+        },
+        {
+          "from": 143296356,
+          "type": 2
+        },
+        {
+          "from": 143304492,
+          "type": 3
+        },
+        {
+          "from": 143349308,
+          "type": 2
+        },
+        {
+          "from": 143349704,
+          "type": 2
+        },
+        {
+          "from": 143282576,
+          "type": 2
+        },
+        {
+          "from": 143282788,
+          "type": 2
+        },
+        {
+          "from": 143282980,
+          "type": 2
+        },
+        {
+          "from": 143283176,
+          "type": 2
+        },
+        {
+          "from": 143283336,
+          "type": 2
+        },
+        {
+          "from": 143285264,
+          "type": 2
+        },
+        {
+          "from": 143286176,
+          "type": 2
+        },
+        {
+          "from": 143286232,
+          "type": 2
+        },
+        {
+          "from": 143286304,
+          "type": 2
+        },
+        {
+          "from": 143286408,
+          "type": 3
+        },
+        {
+          "from": 143286420,
+          "type": 2
+        },
+        {
+          "from": 143286592,
+          "type": 2
+        },
+        {
+          "from": 143286768,
+          "type": 2
+        },
+        {
+          "from": 143286852,
+          "type": 3
+        },
+        {
+          "from": 143286872,
+          "type": 2
+        },
+        {
+          "from": 143286928,
+          "type": 3
+        },
+        {
+          "from": 143286936,
+          "type": 2
+        },
+        {
+          "from": 143287036,
+          "type": 3
+        },
+        {
+          "from": 143287052,
+          "type": 2
+        },
+        {
+          "from": 143287100,
+          "type": 3
+        },
+        {
+          "from": 143287116,
+          "type": 2
+        },
+        {
+          "from": 143287164,
+          "type": 3
+        },
+        {
+          "from": 143288872,
+          "type": 3
+        },
+        {
+          "from": 143293380,
+          "type": 2
+        },
+        {
+          "from": 143293624,
+          "type": 2
+        },
+        {
+          "from": 143293632,
+          "type": 3
+        },
+        {
+          "from": 143293792,
+          "type": 2
+        },
+        {
+          "from": 143294132,
+          "type": 2
+        },
+        {
+          "from": 143294276,
+          "type": 3
+        },
+        {
+          "from": 143294336,
+          "type": 2
+        },
+        {
+          "from": 143294344,
+          "type": 3
+        },
+        {
+          "from": 143294504,
+          "type": 2
+        },
+        {
+          "from": 143294852,
+          "type": 2
+        },
+        {
+          "from": 143294932,
+          "type": 3
+        },
+        {
+          "from": 143294976,
+          "type": 2
+        },
+        {
+          "from": 143294984,
+          "type": 3
+        },
+        {
+          "from": 143295136,
+          "type": 2
+        },
+        {
+          "from": 143295720,
+          "type": 2
+        },
+        {
+          "from": 143295768,
+          "type": 3
+        },
+        {
+          "from": 143295788,
+          "type": 2
+        },
+        {
+          "from": 143295844,
+          "type": 3
+        },
+        {
+          "from": 143295900,
+          "type": 3
+        },
+        {
+          "from": 143295976,
+          "type": 3
+        },
+        {
+          "from": 143296096,
+          "type": 2
+        },
+        {
+          "from": 143296956,
+          "type": 2
+        },
+        {
+          "from": 143297100,
+          "type": 3
+        },
+        {
+          "from": 143297160,
+          "type": 2
+        },
+        {
+          "from": 143297168,
+          "type": 3
+        },
+        {
+          "from": 143297328,
+          "type": 2
+        },
+        {
+          "from": 143302808,
+          "type": 2
+        },
+        {
+          "from": 143302856,
+          "type": 3
+        },
+        {
+          "from": 143302944,
+          "type": 3
+        },
+        {
+          "from": 143302960,
+          "type": 2
+        },
+        {
+          "from": 143304012,
+          "type": 3
+        },
+        {
+          "from": 143304220,
+          "type": 3
+        },
+        {
+          "from": 143304420,
+          "type": 3
+        },
+        {
+          "from": 143304484,
+          "type": 2
+        },
+        {
+          "from": 143304520,
+          "type": 3
+        },
+        {
+          "from": 143304544,
+          "type": 2
+        },
+        {
+          "from": 143307600,
+          "type": 2
+        },
+        {
+          "from": 143349372,
+          "type": 3
+        },
+        {
+          "from": 143349520,
+          "type": 3
+        },
+        {
+          "from": 143286068,
+          "type": 2
+        },
+        {
+          "from": 143287108,
+          "type": 2
+        },
+        {
+          "from": 143287180,
+          "type": 2
+        },
+        {
+          "from": 143288884,
+          "type": 3
+        },
+        {
+          "from": 143302952,
+          "type": 2
+        },
+        {
+          "from": 143304532,
+          "type": 2
+        },
+        {
+          "from": 143285212,
+          "type": 2
+        },
+        {
+          "from": 143290676,
+          "type": 2
+        },
+        {
+          "from": 143284396,
+          "type": 3
+        },
+        {
+          "from": 143284404,
+          "type": 2
+        },
+        {
+          "from": 143286616,
+          "type": 2
+        },
+        {
+          "from": 143286700,
+          "type": 3
+        },
+        {
+          "from": 143286708,
+          "type": 2
+        },
+        {
+          "from": 143286792,
+          "type": 2
+        },
+        {
+          "from": 143286908,
+          "type": 3
+        },
+        {
+          "from": 143286920,
+          "type": 2
+        },
+        {
+          "from": 143289140,
+          "type": 3
+        },
+        {
+          "from": 143289152,
+          "type": 2
+        },
+        {
+          "from": 143289284,
+          "type": 3
+        },
+        {
+          "from": 143289296,
+          "type": 2
+        },
+        {
+          "from": 143296056,
+          "type": 3
+        },
+        {
+          "from": 143296228,
+          "type": 3
+        },
+        {
+          "from": 143296236,
+          "type": 2
+        },
+        {
+          "from": 143296272,
+          "type": 3
+        },
+        {
+          "from": 143304504,
+          "type": 3
+        },
+        {
+          "from": 143304676,
+          "type": 3
+        },
+        {
+          "from": 143304684,
+          "type": 2
+        },
+        {
+          "from": 143304720,
+          "type": 3
+        },
+        {
+          "from": 143284980,
+          "type": 2
+        },
+        {
+          "from": 143285300,
+          "type": 2
+        },
+        {
+          "from": 143285784,
+          "type": 2
+        },
+        {
+          "from": 143285900,
+          "type": 2
+        },
+        {
+          "from": 143287872,
+          "type": 2
+        },
+        {
+          "from": 143285052,
+          "type": 2
+        },
+        {
+          "from": 143285372,
+          "type": 2
+        },
+        {
+          "from": 143285532,
+          "type": 2
+        },
+        {
+          "from": 143284760,
+          "type": 2
+        },
+        {
+          "from": 143285000,
+          "type": 2
+        },
+        {
+          "from": 143285320,
+          "type": 2
+        },
+        {
+          "from": 143285868,
+          "type": 2
+        },
+        {
+          "from": 143287736,
+          "type": 2
+        },
+        {
+          "from": 143285020,
+          "type": 2
+        },
+        {
+          "from": 143285340,
+          "type": 2
+        },
+        {
+          "from": 143285888,
+          "type": 2
+        },
+        {
+          "from": 143287804,
+          "type": 2
+        },
+        {
+          "from": 143285560,
+          "type": 2
+        },
+        {
+          "from": 143285588,
+          "type": 2
+        },
+        {
+          "from": 143285720,
+          "type": 2
+        },
+        {
+          "from": 143285848,
+          "type": 2
+        },
+        {
+          "from": 143285616,
+          "type": 2
+        },
+        {
+          "from": 143285644,
+          "type": 2
+        },
+        {
+          "from": 143288264,
+          "type": 2
+        },
+        {
+          "from": 143288332,
+          "type": 2
+        },
+        {
+          "from": 143288400,
+          "type": 2
+        },
+        {
+          "from": 143288468,
+          "type": 2
+        },
+        {
+          "from": 143288536,
+          "type": 2
+        },
+        {
+          "from": 143288696,
+          "type": 2
+        },
+        {
+          "from": 143288740,
+          "type": 2
+        },
+        {
+          "from": 143288784,
+          "type": 2
+        },
+        {
+          "from": 143279492,
+          "type": 3
+        },
+        {
+          "from": 143279504,
+          "type": 2
+        },
+        {
+          "from": 143279796,
+          "type": 3
+        },
+        {
+          "from": 143279820,
+          "type": 2
+        },
+        {
+          "from": 143279840,
+          "type": 3
+        },
+        {
+          "from": 143279860,
+          "type": 2
+        },
+        {
+          "from": 143279892,
+          "type": 3
+        },
+        {
+          "from": 143279900,
+          "type": 2
+        },
+        {
+          "from": 143280236,
+          "type": 3
+        },
+        {
+          "from": 143280304,
+          "type": 3
+        },
+        {
+          "from": 143280312,
+          "type": 2
+        },
+        {
+          "from": 143280420,
+          "type": 3
+        },
+        {
+          "from": 143280440,
+          "type": 3
+        },
+        {
+          "from": 143280456,
+          "type": 2
+        },
+        {
+          "from": 143280608,
+          "type": 3
+        },
+        {
+          "from": 143289028,
+          "type": 3
+        },
+        {
+          "from": 143279520,
+          "type": 3
+        },
+        {
+          "from": 143279536,
+          "type": 2
+        },
+        {
+          "from": 143279716,
+          "type": 3
+        },
+        {
+          "from": 143280084,
+          "type": 3
+        },
+        {
+          "from": 143280108,
+          "type": 3
+        },
+        {
+          "from": 143280120,
+          "type": 2
+        },
+        {
+          "from": 143280128,
+          "type": 3
+        },
+        {
+          "from": 143280152,
+          "type": 3
+        },
+        {
+          "from": 143280160,
+          "type": 2
+        },
+        {
+          "from": 143280476,
+          "type": 3
+        },
+        {
+          "from": 143280484,
+          "type": 2
+        },
+        {
+          "from": 143280616,
+          "type": 3
+        },
+        {
+          "from": 143279552,
+          "type": 3
+        },
+        {
+          "from": 143279568,
+          "type": 2
+        },
+        {
+          "from": 143279620,
+          "type": 3
+        },
+        {
+          "from": 143280504,
+          "type": 3
+        },
+        {
+          "from": 143280512,
+          "type": 2
+        },
+        {
+          "from": 143280636,
+          "type": 3
+        },
+        {
+          "from": 143279580,
+          "type": 3
+        },
+        {
+          "from": 143279588,
+          "type": 2
+        },
+        {
+          "from": 143280532,
+          "type": 3
+        },
+        {
+          "from": 143280540,
+          "type": 2
+        },
+        {
+          "from": 143280644,
+          "type": 3
+        },
+        {
+          "from": 143288904,
+          "type": 3
+        },
+        {
+          "from": 143279600,
+          "type": 3
+        },
+        {
+          "from": 143279608,
+          "type": 2
+        },
+        {
+          "from": 143279924,
+          "type": 3
+        },
+        {
+          "from": 143280560,
+          "type": 3
+        },
+        {
+          "from": 143280568,
+          "type": 2
+        },
+        {
+          "from": 143280668,
+          "type": 3
+        },
+        {
+          "from": 143279936,
+          "type": 3
+        },
+        {
+          "from": 143279948,
+          "type": 2
+        },
+        {
+          "from": 143280604,
+          "type": 3
+        },
+        {
+          "from": 143280612,
+          "type": 3
+        },
+        {
+          "from": 143279688,
+          "type": 3
+        },
+        {
+          "from": 143279696,
+          "type": 2
+        },
+        {
+          "from": 143280624,
+          "type": 3
+        },
+        {
+          "from": 143286428,
+          "type": 3
+        },
+        {
+          "from": 143286440,
+          "type": 2
+        },
+        {
+          "from": 143280640,
+          "type": 3
+        },
+        {
+          "from": 143280664,
+          "type": 3
+        },
+        {
+          "from": 143284380,
+          "type": 2
+        },
+        {
+          "from": 143284412,
+          "type": 2
+        },
+        {
+          "from": 143284688,
+          "type": 2
+        },
+        {
+          "from": 143284708,
+          "type": 2
+        },
+        {
+          "from": 143284776,
+          "type": 2
+        },
+        {
+          "from": 143285228,
+          "type": 2
+        },
+        {
+          "from": 143285280,
+          "type": 2
+        },
+        {
+          "from": 143285388,
+          "type": 2
+        },
+        {
+          "from": 143285676,
+          "type": 2
+        },
+        {
+          "from": 143285736,
+          "type": 2
+        },
+        {
+          "from": 143285800,
+          "type": 2
+        },
+        {
+          "from": 143285912,
+          "type": 2
+        },
+        {
+          "from": 143286080,
+          "type": 2
+        },
+        {
+          "from": 143286192,
+          "type": 2
+        },
+        {
+          "from": 143286248,
+          "type": 2
+        },
+        {
+          "from": 143286320,
+          "type": 2
+        },
+        {
+          "from": 143286464,
+          "type": 2
+        },
+        {
+          "from": 143286636,
+          "type": 2
+        },
+        {
+          "from": 143286812,
+          "type": 2
+        },
+        {
+          "from": 143287068,
+          "type": 2
+        },
+        {
+          "from": 143287124,
+          "type": 2
+        },
+        {
+          "from": 143287196,
+          "type": 2
+        },
+        {
+          "from": 143287224,
+          "type": 2
+        },
+        {
+          "from": 143287744,
+          "type": 3
+        },
+        {
+          "from": 143287756,
+          "type": 2
+        },
+        {
+          "from": 143287812,
+          "type": 3
+        },
+        {
+          "from": 143287824,
+          "type": 2
+        },
+        {
+          "from": 143287880,
+          "type": 3
+        },
+        {
+          "from": 143287888,
+          "type": 2
+        },
+        {
+          "from": 143288848,
+          "type": 3
+        },
+        {
+          "from": 143289304,
+          "type": 3
+        },
+        {
+          "from": 143289312,
+          "type": 2
+        },
+        {
+          "from": 143290692,
+          "type": 2
+        },
+        {
+          "from": 143295744,
+          "type": 2
+        },
+        {
+          "from": 143302832,
+          "type": 2
+        },
+        {
+          "from": 143302920,
+          "type": 2
+        },
+        {
+          "from": 143302992,
+          "type": 2
+        },
+        {
+          "from": 143303988,
+          "type": 2
+        },
+        {
+          "from": 143304556,
+          "type": 2
+        },
+        {
+          "from": 143304560,
+          "type": 2
+        },
+        {
+          "from": 143307732,
+          "type": 2
+        },
+        {
+          "from": 143290960,
+          "type": 2
+        },
+        {
+          "from": 143284660,
+          "type": 2
+        },
+        {
+          "from": 143284700,
+          "type": 2
+        },
+        {
+          "from": 143282280,
+          "type": 2
+        },
+        {
+          "from": 143282328,
+          "type": 3
+        },
+        {
+          "from": 143282508,
+          "type": 2
+        },
+        {
+          "from": 143282616,
+          "type": 3
+        },
+        {
+          "from": 143284336,
+          "type": 2
+        },
+        {
+          "from": 143284644,
+          "type": 2
+        },
+        {
+          "from": 143286604,
+          "type": 2
+        },
+        {
+          "from": 143286780,
+          "type": 2
+        },
+        {
+          "from": 143290852,
+          "type": 2
+        },
+        {
+          "from": 143290860,
+          "type": 3
+        },
+        {
+          "from": 143293668,
+          "type": 3
+        },
+        {
+          "from": 143293712,
+          "type": 2
+        },
+        {
+          "from": 143294380,
+          "type": 3
+        },
+        {
+          "from": 143294424,
+          "type": 2
+        },
+        {
+          "from": 143295020,
+          "type": 3
+        },
+        {
+          "from": 143295056,
+          "type": 2
+        },
+        {
+          "from": 143296308,
+          "type": 3
+        },
+        {
+          "from": 143296348,
+          "type": 2
+        },
+        {
+          "from": 143297204,
+          "type": 3
+        },
+        {
+          "from": 143297248,
+          "type": 2
+        },
+        {
+          "from": 143300280,
+          "type": 3
+        },
+        {
+          "from": 143300320,
+          "type": 2
+        },
+        {
+          "from": 143304756,
+          "type": 3
+        },
+        {
+          "from": 143304796,
+          "type": 2
+        },
+        {
+          "from": 143349320,
+          "type": 2
+        },
+        {
+          "from": 143349344,
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
