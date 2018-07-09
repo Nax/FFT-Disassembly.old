@@ -775,13 +775,11 @@
     },
     {
       "name": "SetEventFlag",
-      "start": 144745728,
-      "type": "int __cdecl SetEventFlag(#2 *context);"
+      "start": 144745728
     },
     {
       "name": "ClearEventFlag",
-      "start": 144745792,
-      "type": "int __cdecl ClearEventFlag(#2 *context);"
+      "start": 144745792
     },
     {
       "name": "GetItemData",
