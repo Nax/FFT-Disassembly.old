@@ -102,9 +102,60 @@
       "start": 142622720
     },
     {
-      "name": "UnkFunction2",
-      "start": 142658432,
-      "type": "int __cdecl UnkFunction2(UnkStruct *dst, __int8 unk1, int unk2);"
+      "name": "_exit",
+      "start": 142623176
+    },
+    {
+      "name": "atan",
+      "start": 142639872
+    },
+    {
+      "name": "fabs",
+      "start": 142641472
+    },
+    {
+      "name": "isinf",
+      "start": 142641536
+    },
+    {
+      "name": "isnan",
+      "start": 142641600
+    },
+    {
+      "name": "_calloc_r",
+      "start": 142642624
+    },
+    {
+      "name": "_dtoa_r",
+      "start": 142643588
+    },
+    {
+      "name": "_free_r",
+      "start": 142650660
+    },
+    {
+      "name": "_malloc_r",
+      "start": 142654784
+    },
+    {
+      "name": "memchr",
+      "start": 142656832
+    },
+    {
+      "name": "memcmp",
+      "start": 142657088
+    },
+    {
+      "name": "memcpy",
+      "start": 142657280
+    },
+    {
+      "name": "memmove",
+      "start": 142657600
+    },
+    {
+      "name": "memset",
+      "start": 142658432
     },
     {
       "name": "rand",
@@ -115,13 +166,57 @@
       "start": 142668976
     },
     {
+      "name": "strcat",
+      "start": 142669632
+    },
+    {
+      "name": "strcmp",
+      "start": 142669824
+    },
+    {
+      "name": "strcpy",
+      "start": 142669952
+    },
+    {
       "name": "strlen",
       "start": 142670144,
       "type": "unsigned __int32 __cdecl strlen(const char *str);"
     },
     {
+      "name": "_vfprintf_r",
+      "start": 142671324
+    },
+    {
       "name": "start",
       "start": 142691072
+    },
+    {
+      "name": "vcos_s",
+      "start": 142782884
+    },
+    {
+      "name": "vmax_s",
+      "start": 142783112
+    },
+    {
+      "name": "vmin_s",
+      "start": 142783152
+    },
+    {
+      "name": "vpow_s",
+      "start": 142783192
+    },
+    {
+      "name": "vsin_s",
+      "start": 142783340
+    },
+    {
+      "name": "vsqrt_s",
+      "start": 142783380
+    },
+    {
+      "name": "vtan_s",
+      "start": 142783412
     },
     {
       "name": "ZodiacMultipliers",
@@ -681,12 +776,12 @@
     {
       "name": "SetEventFlag",
       "start": 144745728,
-      "type": "int __cdecl SetEventFlag(UnkContext *context);"
+      "type": "int __cdecl SetEventFlag(#2 *context);"
     },
     {
       "name": "ClearEventFlag",
       "start": 144745792,
-      "type": "int __cdecl ClearEventFlag(UnkContext *context);"
+      "type": "int __cdecl ClearEventFlag(#2 *context);"
     },
     {
       "name": "GetItemData",
@@ -783,20 +878,624 @@
       "start": 145010556
     },
     {
+      "name": "sceKernelCpuSuspendIntr",
+      "start": 145010564
+    },
+    {
+      "name": "sceKernelCpuResumeIntr",
+      "start": 145010572
+    },
+    {
+      "name": "sceKernelExitGame",
+      "start": 145010580
+    },
+    {
+      "name": "sceKernelRegisterExitCallback",
+      "start": 145010588
+    },
+    {
+      "name": "sceKernelUnloadModule",
+      "start": 145010596
+    },
+    {
+      "name": "sceKernelGetModuleIdByAddress",
+      "start": 145010604
+    },
+    {
+      "name": "sceKernelGetModuleId",
+      "start": 145010612
+    },
+    {
+      "name": "sceKernelStopUnloadSelfModuleWithStatus",
+      "start": 145010620
+    },
+    {
+      "name": "sceKernelStopModule",
+      "start": 145010628
+    },
+    {
+      "name": "sceKernelStdin",
+      "start": 145010636
+    },
+    {
+      "name": "sceKernelStdout",
+      "start": 145010644
+    },
+    {
+      "name": "sceKernelStderr",
+      "start": 145010652
+    },
+    {
+      "name": "sceKernelPrintf",
+      "start": 145010660
+    },
+    {
+      "name": "sceKernelAllocPartitionMemory",
+      "start": 145010668
+    },
+    {
+      "name": "sceKernelSetCompiledSdkVersion",
+      "start": 145010676
+    },
+    {
+      "name": "sceKernelGetBlockHeadAddr",
+      "start": 145010684
+    },
+    {
+      "name": "sceKernelFreePartitionMemory",
+      "start": 145010692
+    },
+    {
+      "name": "sceKernelSetCompilerVersion",
+      "start": 145010700
+    },
+    {
+      "name": "sceKernelDelayThread",
+      "start": 145010708
+    },
+    {
       "name": "sceKernelSetEventFlag",
       "start": 145010716
+    },
+    {
+      "name": "sceKernelCreateSema",
+      "start": 145010724
+    },
+    {
+      "name": "sceKernelCreateCallback",
+      "start": 145010732
+    },
+    {
+      "name": "sceKernelDeleteFpl",
+      "start": 145010740
+    },
+    {
+      "name": "sceKernelDeleteEventFlag",
+      "start": 145010748
+    },
+    {
+      "name": "sceKernelDeleteMsgPipe",
+      "start": 145010756
+    },
+    {
+      "name": "sceKernelStartThread",
+      "start": 145010764
+    },
+    {
+      "name": "sceKernelFreeFpl",
+      "start": 145010772
+    },
+    {
+      "name": "sceKernelWaitThreadEnd",
+      "start": 145010780
+    },
+    {
+      "name": "sceKernelDeleteSema",
+      "start": 145010788
+    },
+    {
+      "name": "sceKernelPollEventFlag",
+      "start": 145010796
+    },
+    {
+      "name": "sceKernelWaitEventFlagCB",
+      "start": 145010804
+    },
+    {
+      "name": "sceKernelCancelMsgPipe",
+      "start": 145010812
+    },
+    {
+      "name": "sceKernelTerminateDeleteThread",
+      "start": 145010820
+    },
+    {
+      "name": "sceKernelSignalSema",
+      "start": 145010828
+    },
+    {
+      "name": "sceKernelWaitEventFlag",
+      "start": 145010836
+    },
+    {
+      "name": "sceKernelCreateThread",
+      "start": 145010844
+    },
+    {
+      "name": "sceKernelWaitSema",
+      "start": 145010852
+    },
+    {
+      "name": "sceKernelCreateEventFlag",
+      "start": 145010860
+    },
+    {
+      "name": "sceKernelTryAllocateFpl",
+      "start": 145010868
+    },
+    {
+      "name": "sceKernelSetAlarm",
+      "start": 145010876
     },
     {
       "name": "sceKernelReceiveMsgPipe",
       "start": 145010884
     },
     {
+      "name": "sceKernelCreateMsgPipe",
+      "start": 145010892
+    },
+    {
+      "name": "sceKernelCancelAlarm",
+      "start": 145010900
+    },
+    {
+      "name": "sceKernelExitDeleteThread",
+      "start": 145010908
+    },
+    {
       "name": "sceKernelClearEventFlag",
       "start": 145010916
     },
     {
+      "name": "sceKernelGetSystemTimeWide",
+      "start": 145010924
+    },
+    {
       "name": "sceKernelTrySendMsgPipe",
       "start": 145010932
+    },
+    {
+      "name": "sceKernelSuspendThread",
+      "start": 145010940
+    },
+    {
+      "name": "sceKernelDeleteThread",
+      "start": 145010948
+    },
+    {
+      "name": "sceKernelExitThread",
+      "start": 145010956
+    },
+    {
+      "name": "sceKernelCreateFpl",
+      "start": 145010964
+    },
+    {
+      "name": "sceKernelLibcGettimeofday",
+      "start": 145010972
+    },
+    {
+      "name": "sceKernelLibcClock",
+      "start": 145010980
+    },
+    {
+      "name": "sceKernelLibcTime",
+      "start": 145010988
+    },
+    {
+      "name": "sceKernelDcacheWritebackRange",
+      "start": 145010996
+    },
+    {
+      "name": "sceAudioOutputBlocking",
+      "start": 145011004
+    },
+    {
+      "name": "sceAudioOutputPannedBlocking",
+      "start": 145011012
+    },
+    {
+      "name": "sceAudioChReserve",
+      "start": 145011020
+    },
+    {
+      "name": "sceAudioChRelease",
+      "start": 145011028
+    },
+    {
+      "name": "sceAudioChangeChannelConfig",
+      "start": 145011036
+    },
+    {
+      "name": "sceAudioGetChannelRestLength",
+      "start": 145011044
+    },
+    {
+      "name": "sceAudioChangeChannelVolume",
+      "start": 145011052
+    },
+    {
+      "name": "sceAudioSetChannelDataLen",
+      "start": 145011060
+    },
+    {
+      "name": "sceAudioOutputPanned",
+      "start": 145011068
+    },
+    {
+      "name": "sceCtrlSetSamplingMode",
+      "start": 145011076
+    },
+    {
+      "name": "sceCtrlPeekBufferPositive",
+      "start": 145011084
+    },
+    {
+      "name": "sceCtrlSetSamplingCycle",
+      "start": 145011092
+    },
+    {
+      "name": "sceDisplaySetMode",
+      "start": 145011100
+    },
+    {
+      "name": "sceDisplayGetAccumulatedHcount",
+      "start": 145011108
+    },
+    {
+      "name": "sceDisplaySetFrameBuf",
+      "start": 145011116
+    },
+    {
+      "name": "sceDisplayWaitVblankStartCB",
+      "start": 145011124
+    },
+    {
+      "name": "sceDisplayWaitVblankStart",
+      "start": 145011132
+    },
+    {
+      "name": "sceDisplayGetVcount",
+      "start": 145011140
+    },
+    {
+      "name": "sceDmacMemcpy",
+      "start": 145011148
+    },
+    {
+      "name": "sceGeListSync",
+      "start": 145011156
+    },
+    {
+      "name": "sceGeUnsetCallback",
+      "start": 145011164
+    },
+    {
+      "name": "sceGeListEnQueueHead",
+      "start": 145011172
+    },
+    {
+      "name": "sceGeContinue",
+      "start": 145011180
+    },
+    {
+      "name": "sceGeSetCallback",
+      "start": 145011188
+    },
+    {
+      "name": "sceGeListEnQueue",
+      "start": 145011196
+    },
+    {
+      "name": "sceGeDrawSync",
+      "start": 145011204
+    },
+    {
+      "name": "sceGeBreak",
+      "start": 145011212
+    },
+    {
+      "name": "sceGeListUpdateStallAddr",
+      "start": 145011220
+    },
+    {
+      "name": "sceGeEdramGetAddr",
+      "start": 145011228
+    },
+    {
+      "name": "sceMpegAvcDecode",
+      "start": 145011236
+    },
+    {
+      "name": "sceMpegRingbufferDestruct",
+      "start": 145011244
+    },
+    {
+      "name": "sceMpegInitAu",
+      "start": 145011252
+    },
+    {
+      "name": "sceMpegQueryStreamOffset",
+      "start": 145011260
+    },
+    {
+      "name": "sceMpegRingbufferConstruct",
+      "start": 145011268
+    },
+    {
+      "name": "sceMpegRegistStream",
+      "start": 145011276
+    },
+    {
+      "name": "sceMpegAvcDecodeFlush",
+      "start": 145011284
+    },
+    {
+      "name": "sceMpegUnRegistStream",
+      "start": 145011292
+    },
+    {
+      "name": "sceMpegDelete",
+      "start": 145011300
+    },
+    {
+      "name": "sceMpegQueryStreamSize",
+      "start": 145011308
+    },
+    {
+      "name": "sceMpegInit",
+      "start": 145011316
+    },
+    {
+      "name": "sceMpegFlushAllStream",
+      "start": 145011324
+    },
+    {
+      "name": "sceMpegAvcDecodeStop",
+      "start": 145011332
+    },
+    {
+      "name": "sceMpegAtracDecode",
+      "start": 145011340
+    },
+    {
+      "name": "sceMpegFinish",
+      "start": 145011348
+    },
+    {
+      "name": "sceMpegMallocAvcEsBuf",
+      "start": 145011356
+    },
+    {
+      "name": "sceMpegRingbufferPut",
+      "start": 145011364
+    },
+    {
+      "name": "sceMpegRingbufferAvailableSize",
+      "start": 145011372
+    },
+    {
+      "name": "sceMpegQueryMemSize",
+      "start": 145011380
+    },
+    {
+      "name": "sceMpegFreeAvcEsBuf",
+      "start": 145011388
+    },
+    {
+      "name": "sceMpegRingbufferQueryMemSize",
+      "start": 145011396
+    },
+    {
+      "name": "sceMpegCreate",
+      "start": 145011404
+    },
+    {
+      "name": "sceMpegGetAtracAu",
+      "start": 145011412
+    },
+    {
+      "name": "sceMpegQueryAtracEsSize",
+      "start": 145011420
+    },
+    {
+      "name": "sceMpegGetAvcAu",
+      "start": 145011428
+    },
+    {
+      "name": "sceNetAdhocPtpClose",
+      "start": 145011436
+    },
+    {
+      "name": "sceNetAdhocPtpSend",
+      "start": 145011444
+    },
+    {
+      "name": "sceNetAdhocPtpOpen",
+      "start": 145011452
+    },
+    {
+      "name": "sceNetAdhocPtpRecv",
+      "start": 145011460
+    },
+    {
+      "name": "sceNetAdhocPtpFlush",
+      "start": 145011468
+    },
+    {
+      "name": "sceNetAdhocPtpAccept",
+      "start": 145011476
+    },
+    {
+      "name": "sceNetAdhocTerm",
+      "start": 145011484
+    },
+    {
+      "name": "sceNetAdhocPtpListen",
+      "start": 145011492
+    },
+    {
+      "name": "sceNetAdhocPtpConnect",
+      "start": 145011508
+    },
+    {
+      "name": "sceNetAdhocctlAddHandler",
+      "start": 145011524
+    },
+    {
+      "name": "sceNetAdhocctlDisconnect",
+      "start": 145011532
+    },
+    {
+      "name": "sceNetAdhocctlJoin",
+      "start": 145011540
+    },
+    {
+      "name": "sceNetAdhocctlDelHandler",
+      "start": 145011548
+    },
+    {
+      "name": "sceNetAdhocctlGetScanInfo",
+      "start": 145011556
+    },
+    {
+      "name": "sceNetAdhocctlTerm",
+      "start": 145011564
+    },
+    {
+      "name": "sceNetAdhocctlGetPeerList",
+      "start": 145011572
+    },
+    {
+      "name": "sceNetAdhocctlInit",
+      "start": 145011580
+    },
+    {
+      "name": "sceNetAdhocctlCreate",
+      "start": 145011588
+    },
+    {
+      "name": "sceNetGetLocalEtherAddr",
+      "start": 145011596
+    },
+    {
+      "name": "sceNetEtherNtostr",
+      "start": 145011620
+    },
+    {
+      "name": "__sceSasSetADSR",
+      "start": 145011628
+    },
+    {
+      "name": "__sceSasRevParam",
+      "start": 145011636
+    },
+    {
+      "name": "__sceSasGetPauseFlag",
+      "start": 145011644
+    },
+    {
+      "name": "__sceSasRevType",
+      "start": 145011652
+    },
+    {
+      "name": "__sceSasInit",
+      "start": 145011660
+    },
+    {
+      "name": "__sceSasSetVolume",
+      "start": 145011668
+    },
+    {
+      "name": "__sceSasCoreWithMix",
+      "start": 145011676
+    },
+    {
+      "name": "__sceSasSetSL",
+      "start": 145011684
+    },
+    {
+      "name": "__sceSasGetEndFlag",
+      "start": 145011692
+    },
+    {
+      "name": "__sceSasGetEnvelopeHeight",
+      "start": 145011700
+    },
+    {
+      "name": "__sceSasSetKeyOn",
+      "start": 145011708
+    },
+    {
+      "name": "__sceSasSetPause",
+      "start": 145011716
+    },
+    {
+      "name": "__sceSasSetVoice",
+      "start": 145011724
+    },
+    {
+      "name": "__sceSasSetADSRmode",
+      "start": 145011732
+    },
+    {
+      "name": "__sceSasSetKeyOff",
+      "start": 145011740
+    },
+    {
+      "name": "__sceSasCore",
+      "start": 145011748
+    },
+    {
+      "name": "__sceSasSetPitch",
+      "start": 145011756
+    },
+    {
+      "name": "__sceSasSetNoise",
+      "start": 145011764
+    },
+    {
+      "name": "__sceSasGetGrain",
+      "start": 145011772
+    },
+    {
+      "name": "__sceSasSetSimpleADSR",
+      "start": 145011780
+    },
+    {
+      "name": "__sceSasSetGrain",
+      "start": 145011788
+    },
+    {
+      "name": "__sceSasRevEVOL",
+      "start": 145011796
+    },
+    {
+      "name": "__sceSasGetOutputmode",
+      "start": 145011804
+    },
+    {
+      "name": "__sceSasSetOutputmode",
+      "start": 145011812
+    },
+    {
+      "name": "__sceSasRevVON",
+      "start": 145011820
+    },
+    {
+      "name": "sceKernelPowerTick",
+      "start": 145011828
     },
     {
       "name": "sceUmdWaitDriveStatCB",
@@ -821,6 +1520,38 @@
     {
       "name": "sceUmdDeactivate",
       "start": 145011876
+    },
+    {
+      "name": "sceUtilityLoadModule",
+      "start": 145011884
+    },
+    {
+      "name": "sceUtilitySavedataInitStart",
+      "start": 145011892
+    },
+    {
+      "name": "sceUtilitySavedataGetStatus",
+      "start": 145011900
+    },
+    {
+      "name": "sceUtilitySavedataShutdownStart",
+      "start": 145011908
+    },
+    {
+      "name": "sceUtilitySavedataUpdate",
+      "start": 145011916
+    },
+    {
+      "name": "sceUtilityUnloadModule",
+      "start": 145011924
+    },
+    {
+      "name": "sceWlanGetEtherAddr",
+      "start": 145011932
+    },
+    {
+      "name": "sceImposeSetLanguageMode",
+      "start": 145011940
     }
   ],
   "settings": {
@@ -829,32 +1560,6 @@
   "structs": [
     {
       "idx": 0,
-      "members": [
-        {
-          "name": "field_0",
-          "offset": 0,
-          "size": 28
-        },
-        {
-          "name": "event_id",
-          "offset": 28,
-          "size": 4
-        }
-      ],
-      "name": "UnkContext",
-      "xrefs": [
-        {
-          "from": 144745736,
-          "type": 3
-        },
-        {
-          "from": 144745808,
-          "type": 3
-        }
-      ]
-    },
-    {
-      "idx": 1,
       "members": [
         {
           "name": "palette",
@@ -1212,19 +1917,7 @@
       ]
     },
     {
-      "idx": 2,
-      "members": [
-        {
-          "name": "item_id",
-          "offset": 0,
-          "size": 2
-        }
-      ],
-      "name": "UnkStruct",
-      "xrefs": []
-    },
-    {
-      "idx": 3,
+      "idx": 1,
       "members": [
         {
           "name": "sprite_set",
@@ -3514,7 +4207,7 @@
       ]
     },
     {
-      "idx": 4,
+      "idx": 2,
       "members": [
         {
           "name": "hit_flag",
