@@ -46,6 +46,19 @@
       "sz": 4
     },
     {
+      "address": 146470764,
+      "flags": 1610634240,
+      "name": "gDrawContext",
+      "sz": 96,
+      "type": "DrawContext"
+    },
+    {
+      "address": 153619788,
+      "flags": 536892416,
+      "name": "gTextureLoadInfo?",
+      "sz": 4
+    },
+    {
       "address": 154033168,
       "flags": 536892416,
       "name": "current_attack_pointer",
@@ -89,6 +102,19 @@
       "type": "BattleData"
     },
     {
+      "address": 154069776,
+      "flags": 536892416,
+      "name": "gQuadDisplayQueue",
+      "sz": 4
+    },
+    {
+      "address": 158967000,
+      "flags": 1610634240,
+      "name": "gDrawCommandBase",
+      "sz": 80,
+      "type": "DrawCommand"
+    },
+    {
       "address": 159018368,
       "flags": 536892416,
       "name": "dst",
@@ -104,6 +130,70 @@
     {
       "name": "_exit",
       "start": 142623176
+    },
+    {
+      "name": "dl_write_framebuffer_ptr",
+      "start": 142626680
+    },
+    {
+      "name": "DrawCommandTextureMode",
+      "start": 142632336
+    },
+    {
+      "name": "DrawCommandTexture",
+      "start": 142632844
+    },
+    {
+      "name": "dl_write_clutformat",
+      "start": 142633116
+    },
+    {
+      "name": "dl_write_clut_ptrload",
+      "start": 142633176
+    },
+    {
+      "name": "dl_write_blend_fixed",
+      "start": 142633856
+    },
+    {
+      "name": "dl_write_enable_disable",
+      "start": 142634392
+    },
+    {
+      "name": "dl_write_matrix_2",
+      "start": 142634916
+    },
+    {
+      "name": "dl_write_material",
+      "start": 142637404
+    },
+    {
+      "name": "dl_write_material_2",
+      "start": 142637504
+    },
+    {
+      "name": "dl_write_cull",
+      "start": 142637648
+    },
+    {
+      "name": "dl_write_light",
+      "start": 142637692
+    },
+    {
+      "name": "dl_write_light_color",
+      "start": 142637840
+    },
+    {
+      "name": "dl_write_texmode",
+      "start": 142638100
+    },
+    {
+      "name": "dl_write_scissor_region",
+      "start": 142638168
+    },
+    {
+      "name": "dl_write_shademode",
+      "start": 142638296
     },
     {
       "name": "atan",
@@ -192,8 +282,82 @@
       "start": 142691072
     },
     {
+      "name": "vcos_s",
+      "start": 142782884
+    },
+    {
+      "name": "vmax_s",
+      "start": 142783112
+    },
+    {
+      "name": "vmin_s",
+      "start": 142783152
+    },
+    {
+      "name": "vpow_s",
+      "start": 142783192
+    },
+    {
+      "name": "vsin_s",
+      "start": 142783340
+    },
+    {
       "name": "vsqrt_s",
       "start": 142783380
+    },
+    {
+      "name": "vtan_s",
+      "start": 142783412
+    },
+    {
+      "name": "Render",
+      "start": 142786880
+    },
+    {
+      "name": "Render2?",
+      "start": 142792192
+    },
+    {
+      "name": "DrawQuad",
+      "start": 142808640,
+      "type": "void __cdecl DrawQuad(DrawCommand *cmdBuffer);"
+    },
+    {
+      "name": "LoadTexture2?",
+      "start": 142818688
+    },
+    {
+      "name": "BlitSurface",
+      "start": 142819584
+    },
+    {
+      "name": "RenderSomething",
+      "start": 142827456
+    },
+    {
+      "name": "BattleFormation??",
+      "start": 143085440
+    },
+    {
+      "name": "PlayIntro",
+      "start": 143142528
+    },
+    {
+      "name": "AllocTexture2?",
+      "start": 143276160,
+      "type": "int __cdecl AllocTexture2?(int unk1, int unk2, int unk3, void *dst);"
+    },
+    {
+      "name": "LoadTexture?",
+      "start": 143276480
+    },
+    {
+      "name": "GameLoop",
+      "start": 143276864
+    },
+    {
+      "name": "GameEntry",
+      "start": 143277440
     },
     {
       "name": "ZodiacMultipliers",
@@ -721,8 +885,41 @@
       "start": 143416960
     },
     {
+      "name": "TitleScreenEntry",
+      "start": 143484480
+    },
+    {
+      "name": "TitleScreenController?",
+      "start": 143484672
+    },
+    {
+      "name": "RenderTitleScreen",
+      "start": 143485376
+    },
+    {
+      "name": "InitTitleScreen",
+      "start": 143493056
+    },
+    {
+      "name": "GetTextureBase",
+      "start": 143495616
+    },
+    {
+      "name": "LoadTextureDescriptor",
+      "start": 143498048
+    },
+    {
       "name": "LoadEndgameCutscene",
       "start": 143503040
+    },
+    {
+      "name": "InitTitleScreenRenderer",
+      "start": 143514240
+    },
+    {
+      "name": "AllocTexture?",
+      "start": 143632576,
+      "type": "int __cdecl AllocTexture?(int unk1, int unk2, int unk3, void *dst);"
     },
     {
       "name": "SomethingToDoWithItems",
@@ -730,8 +927,51 @@
       "type": "int __cdecl SomethingToDoWithItems(int unk0, __int16 *item_ids);"
     },
     {
+      "name": "FindStrInBlock",
+      "start": 144418452
+    },
+    {
+      "name": "RenderTextJmp",
+      "start": 144418512
+    },
+    {
+      "name": "RenderText?",
+      "start": 144484096
+    },
+    {
+      "name": "MenuLoadSave?",
+      "start": 144535936
+    },
+    {
+      "name": "RenderTextSimple",
+      "start": 144557696,
+      "type": "void __cdecl RenderTextSimple(unsigned __int32 flags, char *dst, void *unk);"
+    },
+    {
+      "name": "RenderTextREAL",
+      "start": 144557888,
+      "type": "void __cdecl RenderTextREAL(unsigned __int32 flags, char *dst, void *unk, bool unk2);"
+    },
+    {
+      "name": "InitThreads",
+      "start": 144635840
+    },
+    {
+      "name": "PsxMain",
+      "start": 144637120
+    },
+    {
       "name": "Random16u",
       "start": 144638144
+    },
+    {
+      "name": "AllocDrawCommand",
+      "start": 144739840
+    },
+    {
+      "name": "GetTexture?",
+      "start": 144742016,
+      "type": "void *__cdecl GetTexture?(void *base, int index);"
     },
     {
       "name": "LoadDataFile",
@@ -751,6 +991,10 @@
       "start": 144744960
     },
     {
+      "name": "SendLoadTextureMsg",
+      "start": 144745216
+    },
+    {
       "name": "SetEventFlag",
       "start": 144745728,
       "type": "int __cdecl SetEventFlag(UnkContext *context);"
@@ -759,6 +1003,10 @@
       "name": "ClearEventFlag",
       "start": 144745792,
       "type": "int __cdecl ClearEventFlag(UnkContext *context);"
+    },
+    {
+      "name": "BattleFormation?",
+      "start": 144765056
     },
     {
       "name": "GetItemData",
@@ -793,6 +1041,11 @@
     {
       "name": "GetCutscenePath",
       "start": 144839296
+    },
+    {
+      "name": "DrawTitleScreenElement",
+      "start": 144893056,
+      "type": "void __cdecl DrawTitleScreenElement(void *unk0, int x, int y);"
     },
     {
       "name": "load_97E8A64",
@@ -5761,16 +6014,6 @@
         {
           "from": 143349344,
           "type": 3
-        },
-        {
-          "from": 144410796,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143425360,
-          "offset": 0,
-          "type": 1
         }
       ]
     },
@@ -5811,6 +6054,1047 @@
       ],
       "name": "UnkStruct",
       "xrefs": []
+    },
+    {
+      "idx": 5,
+      "members": [
+        {
+          "name": "unk_00",
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "name": "list",
+          "offset": 4,
+          "size": 4
+        },
+        {
+          "name": "stall",
+          "offset": 8,
+          "size": 4
+        },
+        {
+          "name": "size",
+          "offset": 12,
+          "size": 4
+        },
+        {
+          "name": "unk_14",
+          "offset": 16,
+          "size": 132
+        },
+        {
+          "name": "fbPsm",
+          "offset": 148,
+          "size": 4
+        },
+        {
+          "name": "zero_0",
+          "offset": 152,
+          "size": 4
+        },
+        {
+          "name": "viewportX",
+          "offset": 156,
+          "size": 4
+        },
+        {
+          "name": "viewportY",
+          "offset": 160,
+          "size": 4
+        },
+        {
+          "name": "zero_1",
+          "offset": 164,
+          "size": 80
+        },
+        {
+          "name": "tail",
+          "offset": 244,
+          "size": 4
+        }
+      ],
+      "name": "GeContext",
+      "xrefs": []
+    },
+    {
+      "idx": 6,
+      "members": [
+        {
+          "name": "unk_00",
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "name": "unk_04",
+          "offset": 4,
+          "size": 4
+        },
+        {
+          "name": "zero_0",
+          "offset": 8,
+          "size": 4
+        },
+        {
+          "name": "activeIndex",
+          "offset": 12,
+          "size": 4
+        },
+        {
+          "name": "field_10",
+          "offset": 16,
+          "size": 4
+        },
+        {
+          "name": "field_14",
+          "offset": 20,
+          "size": 4
+        },
+        {
+          "name": "qid0",
+          "offset": 24,
+          "size": 4
+        },
+        {
+          "name": "qid1",
+          "offset": 28,
+          "size": 4
+        },
+        {
+          "name": "cbid",
+          "offset": 32,
+          "size": 4
+        },
+        {
+          "name": "fbPsm",
+          "offset": 36,
+          "size": 4
+        },
+        {
+          "name": "fbWidth",
+          "offset": 40,
+          "size": 4
+        },
+        {
+          "name": "framebuffer",
+          "offset": 44,
+          "size": 4
+        },
+        {
+          "name": "zero_1",
+          "offset": 48,
+          "size": 12
+        },
+        {
+          "name": "viewportX",
+          "offset": 60,
+          "size": 4
+        },
+        {
+          "name": "viewportY",
+          "offset": 64,
+          "size": 4
+        },
+        {
+          "name": "field_44",
+          "offset": 68,
+          "size": 4
+        },
+        {
+          "name": "activeContext",
+          "offset": 72,
+          "size": 4
+        },
+        {
+          "name": "context",
+          "offset": 76,
+          "size": 20
+        }
+      ],
+      "name": "DrawContext",
+      "xrefs": [
+        {
+          "from": 142624400,
+          "type": 3
+        },
+        {
+          "from": 142624604,
+          "type": 2
+        },
+        {
+          "from": 142624748,
+          "type": 3
+        },
+        {
+          "from": 142627924,
+          "type": 3
+        },
+        {
+          "from": 142627980,
+          "type": 2
+        },
+        {
+          "from": 142638552,
+          "type": 2
+        },
+        {
+          "from": 142626380,
+          "type": 3
+        },
+        {
+          "from": 142626528,
+          "type": 3
+        },
+        {
+          "from": 142628780,
+          "type": 3
+        },
+        {
+          "from": 142628788,
+          "type": 2
+        },
+        {
+          "from": 142638600,
+          "type": 2
+        },
+        {
+          "from": 142624796,
+          "type": 3
+        },
+        {
+          "from": 142624820,
+          "type": 2
+        },
+        {
+          "from": 142624864,
+          "type": 3
+        },
+        {
+          "from": 142625364,
+          "type": 3
+        },
+        {
+          "from": 142625492,
+          "type": 3
+        },
+        {
+          "from": 142625532,
+          "type": 2
+        },
+        {
+          "from": 142627532,
+          "type": 3
+        },
+        {
+          "from": 142638540,
+          "type": 2
+        },
+        {
+          "from": 142638796,
+          "type": 3
+        },
+        {
+          "from": 142625608,
+          "type": 3
+        },
+        {
+          "from": 142625944,
+          "type": 3
+        },
+        {
+          "from": 142628492,
+          "type": 2
+        },
+        {
+          "from": 142638604,
+          "type": 2
+        },
+        {
+          "from": 142624444,
+          "type": 2
+        },
+        {
+          "from": 142626444,
+          "type": 3
+        },
+        {
+          "from": 142626636,
+          "type": 3
+        },
+        {
+          "from": 142628744,
+          "type": 3
+        },
+        {
+          "from": 142624588,
+          "type": 2
+        },
+        {
+          "from": 142627568,
+          "type": 3
+        },
+        {
+          "from": 142628640,
+          "type": 3
+        },
+        {
+          "from": 142638848,
+          "type": 3
+        },
+        {
+          "from": 142626216,
+          "type": 2
+        },
+        {
+          "from": 142628668,
+          "type": 3
+        },
+        {
+          "from": 142624564,
+          "type": 2
+        },
+        {
+          "from": 142624656,
+          "type": 3
+        },
+        {
+          "from": 142624664,
+          "type": 2
+        },
+        {
+          "from": 142626184,
+          "type": 3
+        },
+        {
+          "from": 142626248,
+          "type": 3
+        },
+        {
+          "from": 142627956,
+          "type": 3
+        },
+        {
+          "from": 142627972,
+          "type": 2
+        },
+        {
+          "from": 142626356,
+          "type": 2
+        },
+        {
+          "from": 142626572,
+          "type": 3
+        },
+        {
+          "from": 142626644,
+          "type": 3
+        },
+        {
+          "from": 142627840,
+          "type": 3
+        },
+        {
+          "from": 142627860,
+          "type": 3
+        },
+        {
+          "from": 142628752,
+          "type": 3
+        },
+        {
+          "from": 142628828,
+          "type": 3
+        },
+        {
+          "from": 142638616,
+          "type": 2
+        },
+        {
+          "from": 142626332,
+          "type": 3
+        },
+        {
+          "from": 142626360,
+          "type": 2
+        },
+        {
+          "from": 142626376,
+          "type": 2
+        },
+        {
+          "from": 142626608,
+          "type": 3
+        },
+        {
+          "from": 142626640,
+          "type": 3
+        },
+        {
+          "from": 142627856,
+          "type": 3
+        },
+        {
+          "from": 142628756,
+          "type": 3
+        },
+        {
+          "from": 142638564,
+          "type": 2
+        },
+        {
+          "from": 142626520,
+          "type": 3
+        },
+        {
+          "from": 142626548,
+          "type": 2
+        },
+        {
+          "from": 142626576,
+          "type": 3
+        },
+        {
+          "from": 142626600,
+          "type": 3
+        },
+        {
+          "from": 142627868,
+          "type": 3
+        },
+        {
+          "from": 142638576,
+          "type": 2
+        },
+        {
+          "from": 142626348,
+          "type": 2
+        },
+        {
+          "from": 142626440,
+          "type": 3
+        },
+        {
+          "from": 142626524,
+          "type": 3
+        },
+        {
+          "from": 142626540,
+          "type": 2
+        },
+        {
+          "from": 142628748,
+          "type": 3
+        },
+        {
+          "from": 142629260,
+          "type": 2
+        },
+        {
+          "from": 142629268,
+          "type": 2
+        },
+        {
+          "from": 142638588,
+          "type": 2
+        },
+        {
+          "from": 142638592,
+          "type": 2
+        },
+        {
+          "from": 142638596,
+          "type": 2
+        },
+        {
+          "from": 142626340,
+          "type": 2
+        },
+        {
+          "from": 142626364,
+          "type": 3
+        },
+        {
+          "from": 142627844,
+          "type": 3
+        },
+        {
+          "from": 142629016,
+          "type": 3
+        },
+        {
+          "from": 142638528,
+          "type": 2
+        },
+        {
+          "from": 142626344,
+          "type": 2
+        },
+        {
+          "from": 142626368,
+          "type": 3
+        },
+        {
+          "from": 142627852,
+          "type": 3
+        },
+        {
+          "from": 142629012,
+          "type": 3
+        },
+        {
+          "from": 142638624,
+          "type": 2
+        },
+        {
+          "from": 142629324,
+          "type": 3
+        },
+        {
+          "from": 142629340,
+          "type": 2
+        },
+        {
+          "from": 142629412,
+          "type": 3
+        },
+        {
+          "from": 142629428,
+          "type": 2
+        },
+        {
+          "from": 142629512,
+          "type": 3
+        },
+        {
+          "from": 142629528,
+          "type": 2
+        },
+        {
+          "from": 142629564,
+          "type": 3
+        },
+        {
+          "from": 142629588,
+          "type": 2
+        },
+        {
+          "from": 142629608,
+          "type": 3
+        },
+        {
+          "from": 142629636,
+          "type": 3
+        },
+        {
+          "from": 142638612,
+          "type": 2
+        },
+        {
+          "from": 142624812,
+          "type": 2
+        },
+        {
+          "from": 142624836,
+          "type": 3
+        },
+        {
+          "from": 142624840,
+          "type": 3
+        },
+        {
+          "from": 142625232,
+          "type": 3
+        },
+        {
+          "from": 142625348,
+          "type": 3
+        },
+        {
+          "from": 142625416,
+          "type": 3
+        },
+        {
+          "from": 142625472,
+          "type": 3
+        },
+        {
+          "from": 142625556,
+          "type": 2
+        },
+        {
+          "from": 142625624,
+          "type": 3
+        },
+        {
+          "from": 142625648,
+          "type": 3
+        },
+        {
+          "from": 142625692,
+          "type": 3
+        },
+        {
+          "from": 142625996,
+          "type": 3
+        },
+        {
+          "from": 142626064,
+          "type": 3
+        },
+        {
+          "from": 142626732,
+          "type": 3
+        },
+        {
+          "from": 142627152,
+          "type": 3
+        },
+        {
+          "from": 142627448,
+          "type": 3
+        },
+        {
+          "from": 142627592,
+          "type": 3
+        },
+        {
+          "from": 142627636,
+          "type": 3
+        },
+        {
+          "from": 142627676,
+          "type": 3
+        },
+        {
+          "from": 142627720,
+          "type": 3
+        },
+        {
+          "from": 142627976,
+          "type": 2
+        },
+        {
+          "from": 142628044,
+          "type": 3
+        },
+        {
+          "from": 142628124,
+          "type": 3
+        },
+        {
+          "from": 142628212,
+          "type": 3
+        },
+        {
+          "from": 142628248,
+          "type": 3
+        },
+        {
+          "from": 142628280,
+          "type": 3
+        },
+        {
+          "from": 142628296,
+          "type": 3
+        },
+        {
+          "from": 142628320,
+          "type": 3
+        },
+        {
+          "from": 142628500,
+          "type": 3
+        },
+        {
+          "from": 142628976,
+          "type": 3
+        },
+        {
+          "from": 142629112,
+          "type": 3
+        },
+        {
+          "from": 142629196,
+          "type": 3
+        },
+        {
+          "from": 142629292,
+          "type": 3
+        },
+        {
+          "from": 142629380,
+          "type": 3
+        },
+        {
+          "from": 142629500,
+          "type": 3
+        },
+        {
+          "from": 142629560,
+          "type": 3
+        },
+        {
+          "from": 142629648,
+          "type": 3
+        },
+        {
+          "from": 142629716,
+          "type": 3
+        },
+        {
+          "from": 142629960,
+          "type": 3
+        },
+        {
+          "from": 142630132,
+          "type": 3
+        },
+        {
+          "from": 142630404,
+          "type": 3
+        },
+        {
+          "from": 142630572,
+          "type": 3
+        },
+        {
+          "from": 142630772,
+          "type": 3
+        },
+        {
+          "from": 142630804,
+          "type": 3
+        },
+        {
+          "from": 142630948,
+          "type": 3
+        },
+        {
+          "from": 142631124,
+          "type": 3
+        },
+        {
+          "from": 142631144,
+          "type": 3
+        },
+        {
+          "from": 142631160,
+          "type": 3
+        },
+        {
+          "from": 142631180,
+          "type": 3
+        },
+        {
+          "from": 142631276,
+          "type": 3
+        },
+        {
+          "from": 142631388,
+          "type": 3
+        },
+        {
+          "from": 142631432,
+          "type": 3
+        },
+        {
+          "from": 142631468,
+          "type": 3
+        },
+        {
+          "from": 142631532,
+          "type": 3
+        },
+        {
+          "from": 142631568,
+          "type": 3
+        },
+        {
+          "from": 142631636,
+          "type": 3
+        },
+        {
+          "from": 142631676,
+          "type": 3
+        },
+        {
+          "from": 142631720,
+          "type": 3
+        },
+        {
+          "from": 142631788,
+          "type": 3
+        },
+        {
+          "from": 142631848,
+          "type": 3
+        },
+        {
+          "from": 142631888,
+          "type": 3
+        },
+        {
+          "from": 142631928,
+          "type": 3
+        },
+        {
+          "from": 142631984,
+          "type": 3
+        },
+        {
+          "from": 142632024,
+          "type": 3
+        },
+        {
+          "from": 142632132,
+          "type": 3
+        },
+        {
+          "from": 142632292,
+          "type": 3
+        },
+        {
+          "from": 142632344,
+          "type": 3
+        },
+        {
+          "from": 142632400,
+          "type": 3
+        },
+        {
+          "from": 142632444,
+          "type": 3
+        },
+        {
+          "from": 142632508,
+          "type": 3
+        },
+        {
+          "from": 142632548,
+          "type": 3
+        },
+        {
+          "from": 142632600,
+          "type": 3
+        },
+        {
+          "from": 142632680,
+          "type": 3
+        },
+        {
+          "from": 142632760,
+          "type": 3
+        },
+        {
+          "from": 142632816,
+          "type": 3
+        },
+        {
+          "from": 142632848,
+          "type": 3
+        },
+        {
+          "from": 142632976,
+          "type": 3
+        },
+        {
+          "from": 142633044,
+          "type": 3
+        },
+        {
+          "from": 142633076,
+          "type": 3
+        },
+        {
+          "from": 142633120,
+          "type": 3
+        },
+        {
+          "from": 142633180,
+          "type": 3
+        },
+        {
+          "from": 142633276,
+          "type": 3
+        },
+        {
+          "from": 142633388,
+          "type": 3
+        },
+        {
+          "from": 142633460,
+          "type": 3
+        },
+        {
+          "from": 142633520,
+          "type": 3
+        },
+        {
+          "from": 142633556,
+          "type": 3
+        },
+        {
+          "from": 142633592,
+          "type": 3
+        },
+        {
+          "from": 142633660,
+          "type": 3
+        },
+        {
+          "from": 142633716,
+          "type": 3
+        },
+        {
+          "from": 142633768,
+          "type": 3
+        },
+        {
+          "from": 142633808,
+          "type": 3
+        },
+        {
+          "from": 142633860,
+          "type": 3
+        },
+        {
+          "from": 142633952,
+          "type": 3
+        },
+        {
+          "from": 142634148,
+          "type": 3
+        },
+        {
+          "from": 142638608,
+          "type": 2
+        },
+        {
+          "from": 142638808,
+          "type": 3
+        },
+        {
+          "from": 142624800,
+          "offset": 18446744073709551615,
+          "type": 1
+        },
+        {
+          "from": 142625548,
+          "offset": 18446744073709551615,
+          "type": 1
+        },
+        {
+          "from": 142626812,
+          "offset": 18446744073709551615,
+          "type": 1
+        },
+        {
+          "from": 142628864,
+          "offset": 18446744073709551615,
+          "type": 1
+        },
+        {
+          "from": 142638620,
+          "offset": 18446744073709551615,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "members": [
+        {
+          "name": "unk",
+          "offset": 0,
+          "size": 52
+        },
+        {
+          "name": "texture",
+          "offset": 52,
+          "size": 4
+        },
+        {
+          "name": "unk1",
+          "offset": 56,
+          "size": 24
+        }
+      ],
+      "name": "DrawCommand",
+      "xrefs": [
+        {
+          "from": 142808800,
+          "type": 3
+        },
+        {
+          "from": 142808804,
+          "type": 2
+        },
+        {
+          "from": 142809480,
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "members": [
+        {
+          "name": "enabled",
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "name": "textureID",
+          "offset": 4,
+          "size": 4
+        },
+        {
+          "name": "unk0",
+          "offset": 8,
+          "size": 4
+        },
+        {
+          "name": "unk1",
+          "offset": 12,
+          "size": 4
+        },
+        {
+          "name": "counter",
+          "offset": 16,
+          "size": 4
+        },
+        {
+          "name": "unk2",
+          "offset": 20,
+          "size": 4
+        },
+        {
+          "name": "x",
+          "offset": 24,
+          "size": 4
+        },
+        {
+          "name": "y",
+          "offset": 28,
+          "size": 4
+        },
+        {
+          "name": "unk3",
+          "offset": 32,
+          "size": 4
+        }
+      ],
+      "name": "MenuDescriptor",
+      "xrefs": [
+        {
+          "from": 143495684,
+          "type": 3
+        },
+        {
+          "from": 143495708,
+          "type": 2
+        }
+      ]
     }
   ]
 }
