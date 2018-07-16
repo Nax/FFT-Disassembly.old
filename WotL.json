@@ -155,7 +155,8 @@
     },
     {
       "name": "memset",
-      "start": 142658432
+      "start": 142658432,
+      "type": "int __cdecl memset(UnkStruct *dst, __int8 unk1, int unk2);"
     },
     {
       "name": "rand",
@@ -191,32 +192,8 @@
       "start": 142691072
     },
     {
-      "name": "vcos_s",
-      "start": 142782884
-    },
-    {
-      "name": "vmax_s",
-      "start": 142783112
-    },
-    {
-      "name": "vmin_s",
-      "start": 142783152
-    },
-    {
-      "name": "vpow_s",
-      "start": 142783192
-    },
-    {
-      "name": "vsin_s",
-      "start": 142783340
-    },
-    {
       "name": "vsqrt_s",
       "start": 142783380
-    },
-    {
-      "name": "vtan_s",
-      "start": 142783412
     },
     {
       "name": "ZodiacMultipliers",
@@ -775,11 +752,13 @@
     },
     {
       "name": "SetEventFlag",
-      "start": 144745728
+      "start": 144745728,
+      "type": "int __cdecl SetEventFlag(UnkContext *context);"
     },
     {
       "name": "ClearEventFlag",
-      "start": 144745792
+      "start": 144745792,
+      "type": "int __cdecl ClearEventFlag(UnkContext *context);"
     },
     {
       "name": "GetItemData",
@@ -3431,6 +3410,171 @@
       "name": "BattleData",
       "xrefs": [
         {
+          "from": 143162176,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162192,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162208,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162356,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162372,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162388,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162408,
+          "offset": 154009600,
+          "type": 1
+        },
+        {
+          "from": 143162420,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162436,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162452,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143162468,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143170980,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143171032,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143171084,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143171136,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143171188,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143171240,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174324,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174376,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174428,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174480,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174532,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174584,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174800,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174852,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174904,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143174956,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143175008,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143175060,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143371964,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143372504,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143373244,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143416496,
+          "offset": 0,
+          "type": 1
+        },
+        {
           "from": 143281332,
           "type": 3
         },
@@ -3441,6 +3585,36 @@
         {
           "from": 143281452,
           "type": 3
+        },
+        {
+          "from": 143362540,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143397088,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143428420,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143436104,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143447104,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143464968,
+          "offset": 0,
+          "type": 1
         },
         {
           "from": 143290788,
@@ -3465,6 +3639,11 @@
         {
           "from": 143284220,
           "type": 3
+        },
+        {
+          "from": 143462456,
+          "offset": 0,
+          "type": 1
         },
         {
           "from": 143280820,
@@ -3723,6 +3902,11 @@
           "type": 3
         },
         {
+          "from": 144375576,
+          "offset": 0,
+          "type": 1
+        },
+        {
           "from": 143280808,
           "type": 3
         },
@@ -3735,12 +3919,32 @@
           "type": 3
         },
         {
+          "from": 144392960,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 144409300,
+          "offset": 0,
+          "type": 1
+        },
+        {
           "from": 143281556,
           "type": 3
         },
         {
           "from": 143281564,
           "type": 3
+        },
+        {
+          "from": 144393004,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 144409316,
+          "offset": 0,
+          "type": 1
         },
         {
           "from": 143281644,
@@ -3835,6 +4039,11 @@
           "type": 3
         },
         {
+          "from": 144369452,
+          "offset": 0,
+          "type": 1
+        },
+        {
           "from": 143279996,
           "type": 3
         },
@@ -3857,6 +4066,11 @@
         {
           "from": 143349124,
           "type": 3
+        },
+        {
+          "from": 144387788,
+          "offset": 0,
+          "type": 1
         },
         {
           "from": 143279648,
@@ -3909,6 +4123,21 @@
         {
           "from": 143304864,
           "type": 3
+        },
+        {
+          "from": 143384740,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 144367748,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 144388012,
+          "offset": 0,
+          "type": 1
         },
         {
           "from": 143288996,
@@ -4201,6 +4430,16 @@
         {
           "from": 143286476,
           "type": 3
+        },
+        {
+          "from": 143425360,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 144410796,
+          "offset": 0,
+          "type": 1
         }
       ]
     },
@@ -5522,8 +5761,56 @@
         {
           "from": 143349344,
           "type": 3
+        },
+        {
+          "from": 144410796,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143425360,
+          "offset": 0,
+          "type": 1
         }
       ]
+    },
+    {
+      "idx": 3,
+      "members": [
+        {
+          "name": "field_0",
+          "offset": 0,
+          "size": 28
+        },
+        {
+          "name": "event_id",
+          "offset": 28,
+          "size": 4
+        }
+      ],
+      "name": "UnkContext",
+      "xrefs": [
+        {
+          "from": 144745736,
+          "type": 3
+        },
+        {
+          "from": 144745808,
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "members": [
+        {
+          "name": "item_id",
+          "offset": 0,
+          "size": 2
+        }
+      ],
+      "name": "UnkStruct",
+      "xrefs": []
     }
   ]
 }
