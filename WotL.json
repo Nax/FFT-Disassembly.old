@@ -47,15 +47,20 @@
     },
     {
       "address": 146470764,
-      "flags": 1610634240,
+      "flags": 536892416,
       "name": "gDrawContext",
-      "sz": 96,
-      "type": "DrawContext"
+      "sz": 4
     },
     {
       "address": 153619788,
       "flags": 536892416,
       "name": "gTextureLoadInfo?",
+      "sz": 4
+    },
+    {
+      "address": 154033052,
+      "flags": 536892416,
+      "name": "CurrentAbilityIgnoreEvasionFlag",
       "sz": 4
     },
     {
@@ -80,6 +85,48 @@
       "address": 154033248,
       "flags": 21504,
       "name": "target_faith",
+      "sz": 1
+    },
+    {
+      "address": 154033250,
+      "flags": 21504,
+      "name": "UsedAbilitySkillSet",
+      "sz": 1
+    },
+    {
+      "address": 154033254,
+      "flags": 268456960,
+      "name": "AttackingWeaponID",
+      "sz": 2
+    },
+    {
+      "address": 154033274,
+      "flags": 21504,
+      "name": "CurrenctActionMPUsed",
+      "sz": 1
+    },
+    {
+      "address": 154033282,
+      "flags": 21504,
+      "name": "CurrentAbilityFlags_1",
+      "sz": 1
+    },
+    {
+      "address": 154033283,
+      "flags": 21504,
+      "name": "CurrentAbilityFlags_2",
+      "sz": 1
+    },
+    {
+      "address": 154033284,
+      "flags": 21504,
+      "name": "CurrentAbilityFlags_3",
+      "sz": 1
+    },
+    {
+      "address": 154033285,
+      "flags": 21504,
+      "name": "CurrentAbilityFlags_4",
       "sz": 1
     },
     {
@@ -282,32 +329,8 @@
       "start": 142691072
     },
     {
-      "name": "vcos_s",
-      "start": 142782884
-    },
-    {
-      "name": "vmax_s",
-      "start": 142783112
-    },
-    {
-      "name": "vmin_s",
-      "start": 142783152
-    },
-    {
-      "name": "vpow_s",
-      "start": 142783192
-    },
-    {
-      "name": "vsin_s",
-      "start": 142783340
-    },
-    {
       "name": "vsqrt_s",
       "start": 142783380
-    },
-    {
-      "name": "vtan_s",
-      "start": 142783412
     },
     {
       "name": "Render",
@@ -344,8 +367,7 @@
     },
     {
       "name": "AllocTexture2?",
-      "start": 143276160,
-      "type": "int __cdecl AllocTexture2?(int unk1, int unk2, int unk3, void *dst);"
+      "start": 143276160
     },
     {
       "name": "LoadTexture?",
@@ -848,6 +870,70 @@
       "start": 143343680
     },
     {
+      "name": "MultipleReactionChecks_0",
+      "start": 143353984
+    },
+    {
+      "name": "MultipleReactionChecks_1",
+      "start": 143354368
+    },
+    {
+      "name": "MultipleReactionChecks_2",
+      "start": 143354944
+    },
+    {
+      "name": "MultipleReactionChecks_3",
+      "start": 143355264
+    },
+    {
+      "name": "NotInlinedSetReactionID",
+      "start": 143355776
+    },
+    {
+      "name": "CanUseAbilityFlagParamReaction",
+      "start": 143355840
+    },
+    {
+      "name": "CanUseReactionBasic",
+      "start": 143355968
+    },
+    {
+      "name": "CanUseCriticalRequiredReaction",
+      "start": 143356096
+    },
+    {
+      "name": "LastActionUsedMPReactionCheck",
+      "start": 143356224
+    },
+    {
+      "name": "CanUseDummiedReaction",
+      "start": 143356352
+    },
+    {
+      "name": "CanUseShirahadori",
+      "start": 143356480
+    },
+    {
+      "name": "CanUseArchersBane",
+      "start": 143356736
+    },
+    {
+      "name": "CanUseManaShield",
+      "start": 143357056
+    },
+    {
+      "name": "CanUseCupOfLife",
+      "start": 143357312
+    },
+    {
+      "name": "CanUseSoulBind",
+      "start": 143357440
+    },
+    {
+      "name": "ReactChanceCheck",
+      "start": 143357568
+    },
+    {
       "name": "SanguineSwordFormula",
       "start": 143369280
     },
@@ -885,6 +971,10 @@
       "start": 143416960
     },
     {
+      "name": "CheckValueAgainstRandomInt",
+      "start": 143423104
+    },
+    {
       "name": "TitleScreenEntry",
       "start": 143484480
     },
@@ -918,8 +1008,7 @@
     },
     {
       "name": "AllocTexture?",
-      "start": 143632576,
-      "type": "int __cdecl AllocTexture?(int unk1, int unk2, int unk3, void *dst);"
+      "start": 143632576
     },
     {
       "name": "SomethingToDoWithItems",
@@ -970,8 +1059,7 @@
     },
     {
       "name": "GetTexture?",
-      "start": 144742016,
-      "type": "void *__cdecl GetTexture?(void *base, int index);"
+      "start": 144742016
     },
     {
       "name": "LoadDataFile",
@@ -3923,6 +4011,10 @@
           "type": 3
         },
         {
+          "from": 143357744,
+          "type": 3
+        },
+        {
           "from": 143288348,
           "type": 3
         },
@@ -4031,11 +4123,31 @@
           "type": 3
         },
         {
+          "from": 143353516,
+          "type": 3
+        },
+        {
+          "from": 143353572,
+          "type": 3
+        },
+        {
           "from": 143290828,
           "type": 3
         },
         {
           "from": 143343796,
+          "type": 3
+        },
+        {
+          "from": 143356520,
+          "type": 3
+        },
+        {
+          "from": 143356824,
+          "type": 3
+        },
+        {
+          "from": 143357588,
           "type": 3
         },
         {
@@ -4052,6 +4164,10 @@
         },
         {
           "from": 143349524,
+          "type": 3
+        },
+        {
+          "from": 143357344,
           "type": 3
         },
         {
@@ -4075,11 +4191,19 @@
           "type": 3
         },
         {
+          "from": 143357340,
+          "type": 3
+        },
+        {
           "from": 143370648,
           "type": 3
         },
         {
           "from": 143286224,
+          "type": 3
+        },
+        {
+          "from": 143357092,
           "type": 3
         },
         {
@@ -4288,6 +4412,10 @@
           "type": 3
         },
         {
+          "from": 143344688,
+          "type": 3
+        },
+        {
           "from": 143349072,
           "type": 3
         },
@@ -4378,6 +4506,10 @@
           "type": 3
         },
         {
+          "from": 143356120,
+          "type": 3
+        },
+        {
           "from": 143384740,
           "offset": 0,
           "type": 1
@@ -4429,6 +4561,10 @@
           "type": 3
         },
         {
+          "from": 143337764,
+          "type": 3
+        },
+        {
           "from": 143349136,
           "type": 3
         },
@@ -4473,6 +4609,10 @@
           "type": 3
         },
         {
+          "from": 143337744,
+          "type": 3
+        },
+        {
           "from": 143286676,
           "type": 3
         },
@@ -4509,6 +4649,34 @@
           "type": 3
         },
         {
+          "from": 143354620,
+          "type": 3
+        },
+        {
+          "from": 143355488,
+          "type": 3
+        },
+        {
+          "from": 143354716,
+          "type": 3
+        },
+        {
+          "from": 143355572,
+          "type": 3
+        },
+        {
+          "from": 143354800,
+          "type": 3
+        },
+        {
+          "from": 143355168,
+          "type": 3
+        },
+        {
+          "from": 143355672,
+          "type": 3
+        },
+        {
           "from": 143280728,
           "type": 3
         },
@@ -4522,6 +4690,18 @@
         },
         {
           "from": 143303132,
+          "type": 3
+        },
+        {
+          "from": 143337684,
+          "type": 3
+        },
+        {
+          "from": 143354288,
+          "type": 3
+        },
+        {
+          "from": 143355204,
           "type": 3
         },
         {
@@ -4578,6 +4758,10 @@
         },
         {
           "from": 143303692,
+          "type": 3
+        },
+        {
+          "from": 143342832,
           "type": 3
         },
         {
@@ -4682,6 +4866,18 @@
         },
         {
           "from": 143286476,
+          "type": 3
+        },
+        {
+          "from": 143353904,
+          "type": 3
+        },
+        {
+          "from": 143354096,
+          "type": 3
+        },
+        {
+          "from": 143354124,
           "type": 3
         },
         {
@@ -4948,6 +5144,10 @@
       "name": "currentAction",
       "xrefs": [
         {
+          "from": 143358620,
+          "type": 3
+        },
+        {
           "from": 143282564,
           "type": 2
         },
@@ -5021,6 +5221,18 @@
         },
         {
           "from": 143349704,
+          "type": 2
+        },
+        {
+          "from": 143356464,
+          "type": 2
+        },
+        {
+          "from": 143356672,
+          "type": 2
+        },
+        {
+          "from": 143356976,
           "type": 2
         },
         {
@@ -5264,11 +5476,27 @@
           "type": 2
         },
         {
+          "from": 143345328,
+          "type": 2
+        },
+        {
           "from": 143349372,
           "type": 3
         },
         {
           "from": 143349520,
+          "type": 3
+        },
+        {
+          "from": 143356044,
+          "type": 3
+        },
+        {
+          "from": 143357148,
+          "type": 3
+        },
+        {
+          "from": 143357460,
           "type": 3
         },
         {
@@ -5296,8 +5524,24 @@
           "type": 2
         },
         {
+          "from": 143357348,
+          "type": 3
+        },
+        {
           "from": 143285212,
           "type": 2
+        },
+        {
+          "from": 143357144,
+          "type": 3
+        },
+        {
+          "from": 143357160,
+          "type": 2
+        },
+        {
+          "from": 143357172,
+          "type": 3
         },
         {
           "from": 143290676,
@@ -5309,6 +5553,58 @@
         },
         {
           "from": 143284404,
+          "type": 2
+        },
+        {
+          "from": 143353904,
+          "type": 3
+        },
+        {
+          "from": 143354096,
+          "type": 3
+        },
+        {
+          "from": 143354124,
+          "type": 3
+        },
+        {
+          "from": 143354196,
+          "type": 3
+        },
+        {
+          "from": 143355788,
+          "type": 2
+        },
+        {
+          "from": 143355932,
+          "type": 2
+        },
+        {
+          "from": 143356036,
+          "type": 2
+        },
+        {
+          "from": 143356184,
+          "type": 2
+        },
+        {
+          "from": 143356284,
+          "type": 2
+        },
+        {
+          "from": 143356408,
+          "type": 2
+        },
+        {
+          "from": 143356680,
+          "type": 2
+        },
+        {
+          "from": 143356984,
+          "type": 2
+        },
+        {
+          "from": 143357532,
           "type": 2
         },
         {
@@ -5381,6 +5677,18 @@
         },
         {
           "from": 143304720,
+          "type": 3
+        },
+        {
+          "from": 143349800,
+          "type": 3
+        },
+        {
+          "from": 143349808,
+          "type": 2
+        },
+        {
+          "from": 143353488,
           "type": 3
         },
         {
@@ -5572,6 +5880,14 @@
           "type": 3
         },
         {
+          "from": 143289484,
+          "type": 3
+        },
+        {
+          "from": 143289496,
+          "type": 2
+        },
+        {
           "from": 143279520,
           "type": 3
         },
@@ -5620,6 +5936,14 @@
           "type": 3
         },
         {
+          "from": 143289512,
+          "type": 3
+        },
+        {
+          "from": 143289528,
+          "type": 2
+        },
+        {
           "from": 143279552,
           "type": 3
         },
@@ -5642,6 +5966,14 @@
         {
           "from": 143280636,
           "type": 3
+        },
+        {
+          "from": 143289544,
+          "type": 3
+        },
+        {
+          "from": 143289560,
+          "type": 2
         },
         {
           "from": 143279580,
@@ -5668,6 +6000,14 @@
           "type": 3
         },
         {
+          "from": 143289572,
+          "type": 3
+        },
+        {
+          "from": 143289580,
+          "type": 2
+        },
+        {
           "from": 143279600,
           "type": 3
         },
@@ -5690,6 +6030,14 @@
         {
           "from": 143280668,
           "type": 3
+        },
+        {
+          "from": 143289592,
+          "type": 3
+        },
+        {
+          "from": 143289604,
+          "type": 2
         },
         {
           "from": 143279936,
@@ -5725,6 +6073,10 @@
         },
         {
           "from": 143286440,
+          "type": 2
+        },
+        {
+          "from": 143359024,
           "type": 2
         },
         {
@@ -5900,7 +6252,51 @@
           "type": 2
         },
         {
+          "from": 143345340,
+          "type": 3
+        },
+        {
+          "from": 143345348,
+          "type": 2
+        },
+        {
+          "from": 143355988,
+          "type": 3
+        },
+        {
+          "from": 143356144,
+          "type": 3
+        },
+        {
+          "from": 143359032,
+          "type": 2
+        },
+        {
           "from": 143290960,
+          "type": 2
+        },
+        {
+          "from": 143355808,
+          "type": 2
+        },
+        {
+          "from": 143355948,
+          "type": 2
+        },
+        {
+          "from": 143356048,
+          "type": 2
+        },
+        {
+          "from": 143356300,
+          "type": 2
+        },
+        {
+          "from": 143356428,
+          "type": 2
+        },
+        {
+          "from": 143357524,
           "type": 2
         },
         {
@@ -5992,6 +6388,14 @@
           "type": 2
         },
         {
+          "from": 143300040,
+          "type": 3
+        },
+        {
+          "from": 143300084,
+          "type": 2
+        },
+        {
           "from": 143300280,
           "type": 3
         },
@@ -6008,12 +6412,38 @@
           "type": 2
         },
         {
+          "from": 143344604,
+          "type": 3
+        },
+        {
           "from": 143349320,
           "type": 2
         },
         {
           "from": 143349344,
           "type": 3
+        },
+        {
+          "from": 143356444,
+          "type": 2
+        },
+        {
+          "from": 143356540,
+          "type": 2
+        },
+        {
+          "from": 143356844,
+          "type": 2
+        },
+        {
+          "from": 144410796,
+          "offset": 0,
+          "type": 1
+        },
+        {
+          "from": 143425360,
+          "offset": 0,
+          "type": 1
         }
       ]
     },
@@ -6214,26 +6644,6 @@
       "name": "DrawContext",
       "xrefs": [
         {
-          "from": 142624400,
-          "type": 3
-        },
-        {
-          "from": 142624604,
-          "type": 2
-        },
-        {
-          "from": 142624748,
-          "type": 3
-        },
-        {
-          "from": 142627924,
-          "type": 3
-        },
-        {
-          "from": 142627980,
-          "type": 2
-        },
-        {
           "from": 142638552,
           "type": 2
         },
@@ -6302,10 +6712,6 @@
           "type": 3
         },
         {
-          "from": 142628492,
-          "type": 2
-        },
-        {
           "from": 142638604,
           "type": 2
         },
@@ -6334,20 +6740,12 @@
           "type": 3
         },
         {
-          "from": 142628640,
-          "type": 3
-        },
-        {
           "from": 142638848,
           "type": 3
         },
         {
           "from": 142626216,
           "type": 2
-        },
-        {
-          "from": 142628668,
-          "type": 3
         },
         {
           "from": 142624564,
@@ -6578,14 +6976,6 @@
           "type": 2
         },
         {
-          "from": 142629608,
-          "type": 3
-        },
-        {
-          "from": 142629636,
-          "type": 3
-        },
-        {
           "from": 142638612,
           "type": 2
         },
@@ -6646,44 +7036,12 @@
           "type": 3
         },
         {
-          "from": 142627152,
-          "type": 3
-        },
-        {
           "from": 142627448,
-          "type": 3
-        },
-        {
-          "from": 142627592,
-          "type": 3
-        },
-        {
-          "from": 142627636,
-          "type": 3
-        },
-        {
-          "from": 142627676,
-          "type": 3
-        },
-        {
-          "from": 142627720,
           "type": 3
         },
         {
           "from": 142627976,
           "type": 2
-        },
-        {
-          "from": 142628044,
-          "type": 3
-        },
-        {
-          "from": 142628124,
-          "type": 3
-        },
-        {
-          "from": 142628212,
-          "type": 3
         },
         {
           "from": 142628248,
@@ -6694,23 +7052,7 @@
           "type": 3
         },
         {
-          "from": 142628296,
-          "type": 3
-        },
-        {
-          "from": 142628320,
-          "type": 3
-        },
-        {
-          "from": 142628500,
-          "type": 3
-        },
-        {
           "from": 142628976,
-          "type": 3
-        },
-        {
-          "from": 142629112,
           "type": 3
         },
         {
@@ -6734,269 +7076,12 @@
           "type": 3
         },
         {
-          "from": 142629648,
-          "type": 3
-        },
-        {
-          "from": 142629716,
-          "type": 3
-        },
-        {
-          "from": 142629960,
-          "type": 3
-        },
-        {
-          "from": 142630132,
-          "type": 3
-        },
-        {
-          "from": 142630404,
-          "type": 3
-        },
-        {
-          "from": 142630572,
-          "type": 3
-        },
-        {
-          "from": 142630772,
-          "type": 3
-        },
-        {
-          "from": 142630804,
-          "type": 3
-        },
-        {
-          "from": 142630948,
-          "type": 3
-        },
-        {
-          "from": 142631124,
-          "type": 3
-        },
-        {
-          "from": 142631144,
-          "type": 3
-        },
-        {
-          "from": 142631160,
-          "type": 3
-        },
-        {
-          "from": 142631180,
-          "type": 3
-        },
-        {
-          "from": 142631276,
-          "type": 3
-        },
-        {
-          "from": 142631388,
-          "type": 3
-        },
-        {
-          "from": 142631432,
-          "type": 3
-        },
-        {
-          "from": 142631468,
-          "type": 3
-        },
-        {
-          "from": 142631532,
-          "type": 3
-        },
-        {
-          "from": 142631568,
-          "type": 3
-        },
-        {
-          "from": 142631636,
-          "type": 3
-        },
-        {
-          "from": 142631676,
-          "type": 3
-        },
-        {
-          "from": 142631720,
-          "type": 3
-        },
-        {
-          "from": 142631788,
-          "type": 3
-        },
-        {
-          "from": 142631848,
-          "type": 3
-        },
-        {
-          "from": 142631888,
-          "type": 3
-        },
-        {
-          "from": 142631928,
-          "type": 3
-        },
-        {
-          "from": 142631984,
-          "type": 3
-        },
-        {
-          "from": 142632024,
-          "type": 3
-        },
-        {
-          "from": 142632132,
-          "type": 3
-        },
-        {
-          "from": 142632292,
-          "type": 3
-        },
-        {
-          "from": 142632344,
-          "type": 3
-        },
-        {
-          "from": 142632400,
-          "type": 3
-        },
-        {
-          "from": 142632444,
-          "type": 3
-        },
-        {
-          "from": 142632508,
-          "type": 3
-        },
-        {
-          "from": 142632548,
-          "type": 3
-        },
-        {
-          "from": 142632600,
-          "type": 3
-        },
-        {
-          "from": 142632680,
-          "type": 3
-        },
-        {
-          "from": 142632760,
-          "type": 3
-        },
-        {
-          "from": 142632816,
-          "type": 3
-        },
-        {
-          "from": 142632848,
-          "type": 3
-        },
-        {
-          "from": 142632976,
-          "type": 3
-        },
-        {
-          "from": 142633044,
-          "type": 3
-        },
-        {
-          "from": 142633076,
-          "type": 3
-        },
-        {
-          "from": 142633120,
-          "type": 3
-        },
-        {
-          "from": 142633180,
-          "type": 3
-        },
-        {
-          "from": 142633276,
-          "type": 3
-        },
-        {
-          "from": 142633388,
-          "type": 3
-        },
-        {
-          "from": 142633460,
-          "type": 3
-        },
-        {
-          "from": 142633520,
-          "type": 3
-        },
-        {
-          "from": 142633556,
-          "type": 3
-        },
-        {
-          "from": 142633592,
-          "type": 3
-        },
-        {
-          "from": 142633660,
-          "type": 3
-        },
-        {
-          "from": 142633716,
-          "type": 3
-        },
-        {
-          "from": 142633768,
-          "type": 3
-        },
-        {
-          "from": 142633808,
-          "type": 3
-        },
-        {
-          "from": 142633860,
-          "type": 3
-        },
-        {
-          "from": 142633952,
-          "type": 3
-        },
-        {
-          "from": 142634148,
-          "type": 3
-        },
-        {
           "from": 142638608,
           "type": 2
         },
         {
           "from": 142638808,
           "type": 3
-        },
-        {
-          "from": 142624800,
-          "offset": 18446744073709551615,
-          "type": 1
-        },
-        {
-          "from": 142625548,
-          "offset": 18446744073709551615,
-          "type": 1
-        },
-        {
-          "from": 142626812,
-          "offset": 18446744073709551615,
-          "type": 1
-        },
-        {
-          "from": 142628864,
-          "offset": 18446744073709551615,
-          "type": 1
-        },
-        {
-          "from": 142638620,
-          "offset": 18446744073709551615,
-          "type": 1
         }
       ]
     },
