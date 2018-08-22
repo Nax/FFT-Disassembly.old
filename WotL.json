@@ -5,7 +5,7 @@
       "address": 145075628,
       "flags": 1610634240,
       "name": "gNewItemTable",
-      "sz": 1032,
+      "sz": 720,
       "type": "ItemData"
     },
     {
@@ -155,6 +155,12 @@
       "sz": 4
     },
     {
+      "address": 154468048,
+      "flags": 536892416,
+      "name": "gBuffer?",
+      "sz": 4
+    },
+    {
       "address": 158967000,
       "flags": 1610634240,
       "name": "gDrawCommandBase",
@@ -259,6 +265,15 @@
       "start": 142641600
     },
     {
+      "name": "_zero",
+      "start": 142641664
+    },
+    {
+      "name": "abs",
+      "start": 142642176,
+      "type": "int __cdecl abs(int n);"
+    },
+    {
       "name": "_calloc_r",
       "start": 142642624
     },
@@ -293,7 +308,7 @@
     {
       "name": "memset",
       "start": 142658432,
-      "type": "int __cdecl memset(UnkStruct *dst, __int8 unk1, int unk2);"
+      "type": "void *__cdecl memset(void *dst, int value, unsigned __int32 size);"
     },
     {
       "name": "rand",
@@ -1102,8 +1117,44 @@
       "type": "ItemData *__cdecl GetItemData(__int16 item_id);"
     },
     {
-      "name": "isValidItemID",
+      "name": "GetItemWeaponData",
+      "start": 144803456
+    },
+    {
+      "name": "GetItemShieldData",
+      "start": 144803520
+    },
+    {
+      "name": "GetItemArmorData",
+      "start": 144803584
+    },
+    {
+      "name": "GetItemAccessoryData",
+      "start": 144803648
+    },
+    {
+      "name": "GetItemChemistData",
+      "start": 144803712
+    },
+    {
+      "name": "GetItemShopData?",
+      "start": 144803776
+    },
+    {
+      "name": "GetItemAttributesData",
+      "start": 144803840
+    },
+    {
+      "name": "IsItemInvalid2",
       "start": 144804864
+    },
+    {
+      "name": "IsItemZero",
+      "start": 144804928
+    },
+    {
+      "name": "IsItemRandom",
+      "start": 144804992
     },
     {
       "name": "IsItemInvalid",
@@ -1113,6 +1164,10 @@
     {
       "name": "RandomFloat?",
       "start": 144816320
+    },
+    {
+      "name": "GetTextArray",
+      "start": 144822336
     },
     {
       "name": "OpenFileFMV",
@@ -1938,11 +1993,6 @@
       "name": "ItemData",
       "xrefs": [
         {
-          "from": 144803600,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143769880,
           "type": 3
         },
@@ -2067,11 +2117,6 @@
           "type": 3
         },
         {
-          "from": 144803536,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 142915048,
           "type": 3
         },
@@ -2188,6 +2233,14 @@
           "type": 3
         },
         {
+          "from": 144237600,
+          "type": 3
+        },
+        {
+          "from": 144317208,
+          "type": 3
+        },
+        {
           "from": 143366064,
           "type": 3
         },
@@ -2226,11 +2279,6 @@
         {
           "from": 144624460,
           "type": 3
-        },
-        {
-          "from": 144803664,
-          "offset": 0,
-          "type": 1
         }
       ]
     },
@@ -3751,168 +3799,8 @@
       "name": "BattleData",
       "xrefs": [
         {
-          "from": 143162176,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162192,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162208,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162356,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162372,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162388,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143162408,
           "offset": 154009600,
-          "type": 1
-        },
-        {
-          "from": 143162420,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162436,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162452,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143162468,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143170980,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143171032,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143171084,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143171136,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143171188,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143171240,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174324,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174376,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174428,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174480,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174532,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174584,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174800,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174852,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174904,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143174956,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143175008,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143175060,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143371964,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143372504,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143373244,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143416496,
-          "offset": 0,
           "type": 1
         },
         {
@@ -3926,36 +3814,6 @@
         {
           "from": 143281452,
           "type": 3
-        },
-        {
-          "from": 143362540,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143397088,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143428420,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143436104,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143447104,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143464968,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143290788,
@@ -3980,11 +3838,6 @@
         {
           "from": 143284220,
           "type": 3
-        },
-        {
-          "from": 143462456,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143280820,
@@ -4279,11 +4132,6 @@
           "type": 3
         },
         {
-          "from": 144375576,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143280808,
           "type": 3
         },
@@ -4296,32 +4144,12 @@
           "type": 3
         },
         {
-          "from": 144392960,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144409300,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143281556,
           "type": 3
         },
         {
           "from": 143281564,
           "type": 3
-        },
-        {
-          "from": 144393004,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144409316,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143281644,
@@ -4420,11 +4248,6 @@
           "type": 3
         },
         {
-          "from": 144369452,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143279996,
           "type": 3
         },
@@ -4447,11 +4270,6 @@
         {
           "from": 143349124,
           "type": 3
-        },
-        {
-          "from": 144387788,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143279648,
@@ -4508,21 +4326,6 @@
         {
           "from": 143356120,
           "type": 3
-        },
-        {
-          "from": 143384740,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144367748,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144388012,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143288996,
@@ -4867,28 +4670,6 @@
         {
           "from": 143286476,
           "type": 3
-        },
-        {
-          "from": 143353904,
-          "type": 3
-        },
-        {
-          "from": 143354096,
-          "type": 3
-        },
-        {
-          "from": 143354124,
-          "type": 3
-        },
-        {
-          "from": 143425360,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144410796,
-          "offset": 0,
-          "type": 1
         }
       ]
     },
@@ -5143,6 +4924,18 @@
       ],
       "name": "currentAction",
       "xrefs": [
+        {
+          "from": 143353904,
+          "type": 3
+        },
+        {
+          "from": 143354096,
+          "type": 3
+        },
+        {
+          "from": 143354124,
+          "type": 3
+        },
         {
           "from": 143358620,
           "type": 3
@@ -5554,18 +5347,6 @@
         {
           "from": 143284404,
           "type": 2
-        },
-        {
-          "from": 143353904,
-          "type": 3
-        },
-        {
-          "from": 143354096,
-          "type": 3
-        },
-        {
-          "from": 143354124,
-          "type": 3
         },
         {
           "from": 143354196,
@@ -6434,16 +6215,6 @@
         {
           "from": 143356844,
           "type": 2
-        },
-        {
-          "from": 144410796,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 143425360,
-          "offset": 0,
-          "type": 1
         }
       ]
     },
