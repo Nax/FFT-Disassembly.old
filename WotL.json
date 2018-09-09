@@ -9,13 +9,6 @@
       "type": "ItemData"
     },
     {
-      "address": 145183936,
-      "flags": 1610634240,
-      "name": "AbilityAIDataArray",
-      "sz": 4096,
-      "type": "AbilityAIData"
-    },
-    {
       "address": 145874160,
       "flags": 1342198784,
       "name": "dStr_UsrDirPath",
@@ -115,7 +108,7 @@
     },
     {
       "address": 154033246,
-      "flags": 268459008,
+      "flags": 268456960,
       "name": "WPOrAbilityY",
       "sz": 2
     },
@@ -130,6 +123,12 @@
       "flags": 21504,
       "name": "usedAbilitySkillSet",
       "sz": 1
+    },
+    {
+      "address": 154033254,
+      "flags": 268456960,
+      "name": "AttackingWeaponID",
+      "sz": 2
     },
     {
       "address": 154033256,
@@ -391,6 +390,14 @@
       "start": 142623176
     },
     {
+      "name": "GetOne",
+      "start": 142624092
+    },
+    {
+      "name": "GetMinusOne",
+      "start": 142624160
+    },
+    {
       "name": "dl_write_framebuffer_ptr",
       "start": 142626680
     },
@@ -521,6 +528,10 @@
       "start": 142664504
     },
     {
+      "name": "GetMinusOne_2",
+      "start": 142668852
+    },
+    {
       "name": "sprintf",
       "start": 142668976
     },
@@ -548,6 +559,70 @@
     {
       "name": "start",
       "start": 142691072
+    },
+    {
+      "name": "And",
+      "start": 142702592
+    },
+    {
+      "name": "Or",
+      "start": 142702720
+    },
+    {
+      "name": "Identity",
+      "start": 142703744
+    },
+    {
+      "name": "Or_2",
+      "start": 142704192
+    },
+    {
+      "name": "Identity_2",
+      "start": 142704960
+    },
+    {
+      "name": "Identity_3",
+      "start": 142706176
+    },
+    {
+      "name": "Identity_4",
+      "start": 142706240
+    },
+    {
+      "name": "Identity_5",
+      "start": 142706368
+    },
+    {
+      "name": "Identity_6",
+      "start": 142706688
+    },
+    {
+      "name": "IdentityArg2",
+      "start": 142708288
+    },
+    {
+      "name": "GetMinusOne_3",
+      "start": 142712064
+    },
+    {
+      "name": "GetMinusOne_4",
+      "start": 142712128
+    },
+    {
+      "name": "GetZero_2",
+      "start": 142715136
+    },
+    {
+      "name": "GetZero_3",
+      "start": 142715200
+    },
+    {
+      "name": "GetMinusOne_5",
+      "start": 142716800
+    },
+    {
+      "name": "And_2",
+      "start": 142720256
     },
     {
       "name": "vsqrt_s",
@@ -1379,10 +1454,6 @@
       "type": "ItemData *__cdecl GetItemData(__int16 item_id);"
     },
     {
-      "name": "getInflictStatusAddress",
-      "start": 144803776
-    },
-    {
       "name": "GetItemWeaponData",
       "start": 144803456
     },
@@ -1403,12 +1474,16 @@
       "start": 144803712
     },
     {
-      "name": "GetItemShopData?",
+      "name": "GetInflictStatusData",
       "start": 144803776
     },
     {
       "name": "GetItemAttributesData",
       "start": 144803840
+    },
+    {
+      "name": "GetItemBattleSprite?",
+      "start": 144804096
     },
     {
       "name": "IsItemInvalid2",
@@ -2258,16 +2333,6 @@
       ],
       "name": "ItemData",
       "xrefs": [
-        {
-          "from": 144803472,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144803600,
-          "offset": 0,
-          "type": 1
-        },
         {
           "from": 143769880,
           "type": 3
@@ -4104,30 +4169,6 @@
           "type": 3
         },
         {
-          "from": 143281332,
-          "type": 3
-        },
-        {
-          "from": 143281392,
-          "type": 3
-        },
-        {
-          "from": 143281452,
-          "type": 3
-        },
-        {
-          "from": 143290788,
-          "type": 3
-        },
-        {
-          "from": 143277616,
-          "type": 3
-        },
-        {
-          "from": 143279452,
-          "type": 3
-        },
-        {
           "from": 143280968,
           "type": 3
         },
@@ -4576,11 +4617,6 @@
           "type": 3
         },
         {
-          "from": 144369452,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143279996,
           "type": 3
         },
@@ -4611,11 +4647,6 @@
         {
           "from": 143359736,
           "type": 3
-        },
-        {
-          "from": 144387788,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143279648,
@@ -4676,16 +4707,6 @@
         {
           "from": 143359844,
           "type": 3
-        },
-        {
-          "from": 144367748,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144388012,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143288996,
@@ -5066,11 +5087,6 @@
         {
           "from": 143359700,
           "type": 3
-        },
-        {
-          "from": 144410796,
-          "offset": 0,
-          "type": 1
         }
       ]
     },
