@@ -5,7 +5,7 @@
       "address": 145075628,
       "flags": 1610634240,
       "name": "gNewItemTable",
-      "sz": 1032,
+      "sz": 720,
       "type": "ItemData"
     },
     {
@@ -361,6 +361,12 @@
       "sz": 4
     },
     {
+      "address": 154468048,
+      "flags": 536892416,
+      "name": "gBuffer?",
+      "sz": 4
+    },
+    {
       "address": 158967000,
       "flags": 1610634240,
       "name": "gDrawCommandBase",
@@ -465,6 +471,15 @@
       "start": 142641600
     },
     {
+      "name": "_zero",
+      "start": 142641664
+    },
+    {
+      "name": "abs",
+      "start": 142642176,
+      "type": "int __cdecl abs(int n);"
+    },
+    {
       "name": "_calloc_r",
       "start": 142642624
     },
@@ -499,7 +514,7 @@
     {
       "name": "memset",
       "start": 142658432,
-      "type": "int __cdecl memset(UnkStruct *dst, __int8 unk1, int unk2);"
+      "type": "void *__cdecl memset(void *dst, int value, unsigned __int32 size);"
     },
     {
       "name": "rand",
@@ -1364,16 +1379,48 @@
       "type": "ItemData *__cdecl GetItemData(__int16 item_id);"
     },
     {
-      "name": "GetWeaponData",
-      "start": 144803456
-    },
-    {
       "name": "getInflictStatusAddress",
       "start": 144803776
     },
     {
-      "name": "isValidItemID",
+      "name": "GetItemWeaponData",
+      "start": 144803456
+    },
+    {
+      "name": "GetItemShieldData",
+      "start": 144803520
+    },
+    {
+      "name": "GetItemArmorData",
+      "start": 144803584
+    },
+    {
+      "name": "GetItemAccessoryData",
+      "start": 144803648
+    },
+    {
+      "name": "GetItemChemistData",
+      "start": 144803712
+    },
+    {
+      "name": "GetItemShopData?",
+      "start": 144803776
+    },
+    {
+      "name": "GetItemAttributesData",
+      "start": 144803840
+    },
+    {
+      "name": "IsItemInvalid2",
       "start": 144804864
+    },
+    {
+      "name": "IsItemZero",
+      "start": 144804928
+    },
+    {
+      "name": "IsItemRandom",
+      "start": 144804992
     },
     {
       "name": "IsItemInvalid",
@@ -1383,6 +1430,10 @@
     {
       "name": "RandomFloat?",
       "start": 144816320
+    },
+    {
+      "name": "GetTextArray",
+      "start": 144822336
     },
     {
       "name": "OpenFileFMV",
@@ -2342,11 +2393,6 @@
           "type": 3
         },
         {
-          "from": 144803536,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 142915048,
           "type": 3
         },
@@ -2463,6 +2509,14 @@
           "type": 3
         },
         {
+          "from": 144237600,
+          "type": 3
+        },
+        {
+          "from": 144317208,
+          "type": 3
+        },
+        {
           "from": 143366064,
           "type": 3
         },
@@ -2501,11 +2555,6 @@
         {
           "from": 144624460,
           "type": 3
-        },
-        {
-          "from": 144803664,
-          "offset": 0,
-          "type": 1
         }
       ]
     },
@@ -4055,6 +4104,30 @@
           "type": 3
         },
         {
+          "from": 143281332,
+          "type": 3
+        },
+        {
+          "from": 143281392,
+          "type": 3
+        },
+        {
+          "from": 143281452,
+          "type": 3
+        },
+        {
+          "from": 143290788,
+          "type": 3
+        },
+        {
+          "from": 143277616,
+          "type": 3
+        },
+        {
+          "from": 143279452,
+          "type": 3
+        },
+        {
           "from": 143280968,
           "type": 3
         },
@@ -4371,11 +4444,6 @@
           "type": 3
         },
         {
-          "from": 144375576,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143280808,
           "type": 3
         },
@@ -4388,32 +4456,12 @@
           "type": 3
         },
         {
-          "from": 144392960,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144409300,
-          "offset": 0,
-          "type": 1
-        },
-        {
           "from": 143281556,
           "type": 3
         },
         {
           "from": 143281564,
           "type": 3
-        },
-        {
-          "from": 144393004,
-          "offset": 0,
-          "type": 1
-        },
-        {
-          "from": 144409316,
-          "offset": 0,
-          "type": 1
         },
         {
           "from": 143281644,
