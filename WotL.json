@@ -33,6 +33,12 @@
       "sz": 2
     },
     {
+      "address": 145618324,
+      "flags": 268456960,
+      "name": "gItemSortOrderChemist",
+      "sz": 2
+    },
+    {
       "address": 145874160,
       "flags": 1342198784,
       "name": "dStr_UsrDirPath",
