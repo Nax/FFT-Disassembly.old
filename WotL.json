@@ -9,6 +9,30 @@
       "type": "ItemData"
     },
     {
+      "address": 145617720,
+      "flags": 268456960,
+      "name": "gItemSortOrderWeapon",
+      "sz": 2
+    },
+    {
+      "address": 145618072,
+      "flags": 268456960,
+      "name": "gItemSortOrderHead",
+      "sz": 2
+    },
+    {
+      "address": 145618148,
+      "flags": 268456960,
+      "name": "gItemSortOrderBody",
+      "sz": 2
+    },
+    {
+      "address": 145618240,
+      "flags": 268456960,
+      "name": "gItemSortOrderAccessory",
+      "sz": 2
+    },
+    {
       "address": 145874160,
       "flags": 1342198784,
       "name": "dStr_UsrDirPath",
@@ -354,6 +378,90 @@
       "type": "BattleData"
     },
     {
+      "address": 154053776,
+      "flags": 21504,
+      "name": "gInventoryPotion",
+      "sz": 1
+    },
+    {
+      "address": 154053777,
+      "flags": 21504,
+      "name": "gInventoryHiPotion",
+      "sz": 1
+    },
+    {
+      "address": 154053778,
+      "flags": 21504,
+      "name": "gInventoryXPotion",
+      "sz": 1
+    },
+    {
+      "address": 154053779,
+      "flags": 21504,
+      "name": "gInventoryEther",
+      "sz": 1
+    },
+    {
+      "address": 154053780,
+      "flags": 21504,
+      "name": "gInventoryHiEther",
+      "sz": 1
+    },
+    {
+      "address": 154053781,
+      "flags": 21504,
+      "name": "gInventoryElixir",
+      "sz": 1
+    },
+    {
+      "address": 154053782,
+      "flags": 21504,
+      "name": "gInventoryAntidote",
+      "sz": 1
+    },
+    {
+      "address": 154053783,
+      "flags": 21504,
+      "name": "gInventoryEyeDrops",
+      "sz": 1
+    },
+    {
+      "address": 154053784,
+      "flags": 21504,
+      "name": "gInventoryEchoHerbs",
+      "sz": 1
+    },
+    {
+      "address": 154053785,
+      "flags": 21504,
+      "name": "gInventoryMaidensKiss",
+      "sz": 1
+    },
+    {
+      "address": 154053786,
+      "flags": 21504,
+      "name": "gInventoryGoldNeedle",
+      "sz": 1
+    },
+    {
+      "address": 154053787,
+      "flags": 21504,
+      "name": "gInventoryHolyWater",
+      "sz": 1
+    },
+    {
+      "address": 154053788,
+      "flags": 21504,
+      "name": "gInventoryRemedy",
+      "sz": 1
+    },
+    {
+      "address": 154053789,
+      "flags": 21504,
+      "name": "gInventoryPhoenixDown",
+      "sz": 1
+    },
+    {
       "address": 154069776,
       "flags": 536892416,
       "name": "gQuadDisplayQueue",
@@ -363,6 +471,24 @@
       "address": 154468048,
       "flags": 536892416,
       "name": "gBuffer?",
+      "sz": 4
+    },
+    {
+      "address": 155513324,
+      "flags": 268456960,
+      "name": "gItemMenuList",
+      "sz": 2
+    },
+    {
+      "address": 155513326,
+      "flags": 268456960,
+      "name": "gItemMenuList2",
+      "sz": 2
+    },
+    {
+      "address": 158638304,
+      "flags": 536892416,
+      "name": "gPtrItemNames",
       "sz": 4
     },
     {
@@ -1290,6 +1416,15 @@
       "start": 143370752
     },
     {
+      "name": "InitRoster?",
+      "start": 143399552
+    },
+    {
+      "name": "GetRosterData",
+      "start": 143399680,
+      "type": "int __cdecl GetRosterData();"
+    },
+    {
       "name": "GetItemDataMasked",
       "start": 143404480,
       "type": "ItemData *__cdecl GetItemDataMasked(int item_id);"
@@ -1355,6 +1490,10 @@
       "start": 143632576
     },
     {
+      "name": "smthItemName",
+      "start": 144163072
+    },
+    {
       "name": "SomethingToDoWithItems",
       "start": 144229824,
       "type": "int __cdecl SomethingToDoWithItems(int unk0, __int16 *item_ids);"
@@ -1374,6 +1513,11 @@
     {
       "name": "RenderTextJmp",
       "start": 144418512
+    },
+    {
+      "name": "FindStrInBlock2",
+      "start": 144420844,
+      "type": "char *__cdecl FindStrInBlock2(char *base, __int32 id);"
     },
     {
       "name": "RenderText?",
@@ -1505,6 +1649,14 @@
     {
       "name": "RandomFloat?",
       "start": 144816320
+    },
+    {
+      "name": "NetworkJoin",
+      "start": 144819968
+    },
+    {
+      "name": "NetworkDisconnect",
+      "start": 144820032
     },
     {
       "name": "GetTextArray",
